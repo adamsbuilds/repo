@@ -24,7 +24,7 @@
     <extension point="xbmc.addon.repository" name="adamsbuilds repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/addons.xml</info>
-            <checksum>https://rawcdn.githack.com/adamsbuilds/repo/76d969801530ea4ac6a699ec3e0ac38f5be237ae/zips/addons.xml.md5</checksum>
+            <checksum>https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/addons.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/</datadir>
         </dir>
     </extension>
