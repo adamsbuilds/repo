@@ -4,7 +4,7 @@ zip="https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/"
 
 name="Adams Build"
 version="1.0"
-url="https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/adamsbuild.zip"
+url="https://drive.google.com/uc?export=download&confirm=7vO1&id=1TbH3-d9cbjU80pO-7eyrpQLG7g8NolkB"
 minor="http://"
 gui="https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/adamsbuild_guisettings.zip"
 kodi="18.5"
