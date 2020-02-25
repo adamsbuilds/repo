@@ -14,7 +14,7 @@
     
     <extension point="xbmc.addon.metadata">
         <summary lang="en">[COLOR limegreen][B]Adam's[/B][/COLOR]Wizard</summary>
-        <description lang="en">[COLOR limegreen][B]Open[/B][/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <description lang="en">Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://adamsbuilds.github.io/repo/</source>
