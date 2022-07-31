@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.adamswizrd" name="[COLOR limegreen][B]Adam's[/B][/COLOR]Wizard" version="1.0" provider-name="adamsbuilds">
+<addon id="plugin.program.adamswizard" name="[COLOR limegreen][B]Adam's[/B][/COLOR]Wizard" version="1.0" provider-name="adamsbuilds">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
