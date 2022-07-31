@@ -19,7 +19,7 @@
         <description lang="en">AdamsBuilds Build Wizard.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://adamsbuilds.github.ip/repo/</source>
+        <source>https://adamsbuilds.github.io/repo/</source>
         <news>
 1.4.9
  - Fix Error Related to Log
