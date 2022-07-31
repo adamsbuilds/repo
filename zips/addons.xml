@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.program.adamswizrd" name="[COLOR limegreen][B]Adam's[/B][/COLOR]Wizard" version="1.0" provider-name="adamsbuilds">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
