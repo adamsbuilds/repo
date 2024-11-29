@@ -4,7 +4,7 @@ zip="https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/"
 
 name="FenLight Build"
 version="1.0"
-url="https://archive.org/download/fenlite-1.0/fenlite-1.0.zip"
+url="https://archive.org/download/fen-light-1.0/FenLight-1.0.zip"
 minor="http://"
 gui=""
 kodi="21.1"
@@ -14,7 +14,7 @@ fanart="https://github.com/adamsbuilds/repo/raw/master/zips/repository.adamsbuil
 preview="https://"
 adult="no"
 info="http://"
-description="Kodi Build centered around Fen Lite Addon"
+description="Kodi Build centered around the Fen light addon the fentastic skin."
 
 name="Valar Morghulis 19"
 version="1.1"
