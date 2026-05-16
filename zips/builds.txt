@@ -4,7 +4,7 @@ zip="https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/"
 
 name="FenLight Build"
 version="1.4"
-url="https://archive.org/download/fen-light-1.4/FenLight-1.4.zip"
+url="https://archive.org/download/fen-light-1.5/FenLight-1.5.zip"
 minor="http://"
 gui=""
 kodi="21.1"
