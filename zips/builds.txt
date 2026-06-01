@@ -30,7 +30,7 @@ adult="no"
 info="http://"
 description="The author of this build does not host any content and has no affiliation with content providers"
 
-name="Fentastic test build"
+name="Update Disabled"
 version="1.0"
 url="https://archive.org/download/testbuild-1.0/testbuild-1.0.zip"
 minor="http://"
