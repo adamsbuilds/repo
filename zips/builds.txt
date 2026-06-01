@@ -1,7 +1,6 @@
 id="plugin.program.adamswizard"
 version="1.0"
 zip="https://raw.githubusercontent.com/adamsbuilds/repo/master/zips/"
-
 name="FentasticPlus Build"
 version="1.6"
 url="https://archive.org/download/fentastic-plus-build-1.6/FentasticPlusBuild-1.6.zip"
@@ -15,9 +14,8 @@ preview="https://"
 adult="no"
 info="http://"
 description="The author of this build does not host any content and has no affiliation with content providers."
-
 name="test build"
-version="1.1"
+version="1.0"
 url="https://archive.org/download/testbuild-1.0/testbuild-1.0.zip"
 minor="http://"
 gui=""
@@ -29,4 +27,3 @@ preview="https://"
 adult="no"
 info="http://"
 description="The author of this build does not host any content and has no affiliation with content providers."
-
