@@ -1,11 +1,11 @@
 1
 |||
-[b]Welcome to the Valar Morghulis Build's Wizard![/b]
+Welcome to the Valar Morghulis Build's Wizard!
   Upon installing a build give Kodi a bit to finish doing its thing on first Kodi Boot.
-                                   [b]Build: Valar Morghulis[/b]
+                                            Build: Valar Morghulis
    -I have placed 2 custom configs in the build for the FentasticPlus skin.  
     Less Widgets.zip and More Widgets.zip can be found by clicking on the WRENCH icon on the home screen.
-                       Custom Configs>>Backup & Restore Configs>>Restore Config>>
+                          Custom Configs>>Backup & Restore Configs>>Restore Config>>
     These can be helpful if on low or high powered devices. (More Widgets is set by default)
    -I have implemented "Play Trailer" in the context menu.  This will work for Movies, TV Shows, Episodes, ect
    -The Vault is my personal Trakt lists.  Some of my favorite movies and shows.
@@ -13,4 +13,4 @@
    -Default Video Resoloution is set at 1080 in Redlight settings.  File size caps of 10gb movie, 5gb shows are on.
     You can change these settings to your preference.
    -Authorize your Premium services by clicking the wrench icon.
-   -Wizard has been modified to retain linked accounts upon build updates if omption selected at wizard install.
+   -Wizard has been modified to retain linked accounts upon build updates if option selected at wizard install.
