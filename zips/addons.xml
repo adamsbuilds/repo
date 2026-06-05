@@ -37,20 +37,17 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.0" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">ValarsWizard is a tool for backup/restore and maintenance of Kodi builds.  Forked from simplewizard.</summary>
-		<description lang="en_GB">Kodi Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content.  Creator assumes no responsibily for content obtained by 3rd party addons. Use at your own risk!</disclaimer>
-		<language>en</language>
-		<platform>all</platform>
-	</extension>
-</addon>
+<addon id="plugin.video.example" name="Your New Addon" version="1.0.0" provider-name="adamsbuilds">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Summary of your new addon</summary>
+      <description lang="en">Description of your new addon</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
 </addons>
