@@ -2,6 +2,7 @@
 |||
 Welcome to the Valar Morghulis Build's Wizard!
   Upon installing a build give Kodi a bit to finish doing its thing on first Kodi Boot.
+  After everything appears to have finished close Kodi and reopen.
                                             Build: Valar Morghulis
    -I have placed 2 custom configs in the build for the FentasticPlus skin.  
     Less Widgets.zip and More Widgets.zip can be found by clicking on the WRENCH icon on the home screen.
