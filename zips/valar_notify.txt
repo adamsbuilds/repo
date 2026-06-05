@@ -1,8 +1,8 @@
 1
 |||
-Welcome to the Valar Morghulis Build's Wizard!
+[b]Welcome to the Valar Morghulis Build's Wizard![/b]
   Upon installing a build give Kodi a bit to finish doing its thing on first Kodi Boot.
-      Build: Valar Morghulis
+                                   [b]Build: Valar Morghulis[/b]
    -I have placed 2 custom configs in the build for the FentasticPlus skin.  
     Less Widgets.zip and More Widgets.zip can be found by clicking on the WRENCH icon on the home screen.
                        Custom Configs>>Backup & Restore Configs>>Restore Config>>
