@@ -1,3 +1,13 @@
-0
+1
 |||
-Place yours notifications below the 3 lines. Raise the value of the number above the 3 lines to prompt a popup on Kodi startup. Host this file and add the url to the notify_url variable located in the addonvar.py file. 
+Welcome to the Valar Morghulis Build's Wizard!
+  Upon installing a build give Kodi a bit to finish doing its thing on first Kodi Boot.
+      Build: Valar Morghulis
+   -I have placed 2 custom configs in the build for the FentasticPlus skin.  
+    Less Widgets.zip and More Widgets.zip can be found by clicking on the WRENCH icon on the home screen and navigating:
+    Custom Configs>>Backup & Restore Configs>>Restore Config>>
+     These can be helpful if on low or high powered devices. (More Widgets is set by default)
+   -I have implemented "Play Trailer" in the context menu.  This will work for Movies, TV Shows, Episodes and Seasons
+   -The Vault is my personal Trakt lists.  The widgets displayed on homescreen will display random items from these 2 lists.
+   -Default Video Resoloution is set at 1080 in Redlight settings.  File size caps of 10gb movie, 5gb show are on.
+   -Authorize your Premium services by clicking the wrench icon.
