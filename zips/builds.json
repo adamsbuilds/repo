@@ -11,10 +11,10 @@
 			"preview": "http://"
 		},
 		{
-			"name": "",
-			"version": "",
+			"name": "testing build",
+			"version": "1.0",
 			"kodi": "K21",
-			"url": "http://",
+			"url": "https://archive.org/download/testbuild-1.0_202606/testbuild-1.0.zip",
 			"icon": "http://",
 			"fanart": "http://",
 			"description": "",
