@@ -12,9 +12,9 @@
 		},
 		{
 			"name": "testing build",
-			"version": "1.0",
+			"version": "1.2",
 			"kodi": "K21",
-			"url": "https://archive.org/download/testbuild-1.0_202606/testbuild-1.0.zip",
+			"url": "https://archive.org/download/testbuild-1.2/testbuild-1.2.zip",
 			"icon": "http://",
 			"fanart": "http://",
 			"description": "",
