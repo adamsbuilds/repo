@@ -12,9 +12,9 @@
 		},
 		{
 			"name": "testing build",
-			"version": "1.5",
+			"version": "1.6",
 			"kodi": "K21",
-			"url": "https://archive.org/download/testbuild-1.5_202606/testbuild-1.5.zip",
+			"url": "https://archive.org/download/valar-morghulis-1.2_202606/ValarMorghulis-1.2.zip",
 			"icon": "http://",
 			"fanart": "http://",
 			"description": "",
