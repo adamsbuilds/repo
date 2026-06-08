@@ -2,7 +2,7 @@
 	"builds": [
 		{
 			"name": "Valar Morghulis",
-			"version": "1.4",
+			"version": "1.3",
 			"kodi": "K21",
 			"url": "https://archive.org/download/valar-morghulis-1.4/ValarMorghulis-1.4.zip",
 			"icon": "http://",
