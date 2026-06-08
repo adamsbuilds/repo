@@ -1,0 +1,57 @@
+name: Generate MD5 for addons.xml
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'zips/addons.xml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-md5:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Generate MD5
+        run: |
+          import hashlib
+          
+          # Read the addons.xml file
+          xml_path = 'zips/addons.xml'
+          with open(xml_path, 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          # Generate MD5
+          md5_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
+          
+          # Write to addons.md5
+          md5_path = 'zips/addons.md5'
+          with open(md5_path, 'w') as f:
+              f.write(md5_hash)
+          
+          print(f"Generated MD5: {md5_hash}")
+        shell: python
+      
+      - name: Commit and push MD5 file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          if git diff --quiet zips/addons.md5; then
+            echo "No changes to MD5 file"
+          else
+            git add zips/addons.md5
+            git commit -m "Auto-generate MD5 for addons.xml"
+            git push
+          fi
