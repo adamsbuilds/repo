@@ -48,4 +48,25 @@
       </assets>
     </extension>
   </addon>
+<addon id="context.trailer" name="Play Trailer" version="1.0" provider-name="BigNoid, adamsbuilds">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="addon.py">
+        <label>32000</label>
+        <visible>[String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode)] + !String.IsEmpty(ListItem.Trailer)</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Play a movie trailer from the context menu in the library.</summary>
+    <description lang="en">Adds a context menu entry for movies that have a trailer in the database. Choose windowed or fullscreen play in the settings.</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <source>https://github.com/BigNoid/context.trailer</source>
+  </extension>
+</addon>
 </addons>
