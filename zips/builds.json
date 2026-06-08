@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "testing build",
-			"version": "1.8",
+			"version": "1.9",
 			"kodi": "K21",
 			"url": "https://archive.org/download/valar-morghulis-1.5_202606/ValarMorghulis-1.5.zip",
 			"icon": "http://",
