@@ -19,7 +19,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.6" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
+<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.5" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
