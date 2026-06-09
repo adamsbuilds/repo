@@ -1,18 +1,17 @@
-name: Auto-Update Addons and MD5
+name: Generate MD5 for addons.xml
 
 on:
   push:
     branches:
       - master
     paths:
-      - 'zips/**/*.zip'
       - 'zips/addons.xml'
 
 permissions:
   contents: write
 
 jobs:
-  update-addons:
+  generate-md5:
     runs-on: ubuntu-latest
     
     steps:
@@ -24,47 +23,35 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Check if zip files were updated
-        id: check_zips
-        run: |
-          if git diff HEAD~1 --name-only | grep -q 'zips/.*\.zip'; then
-            echo "has_zips=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_zips=false" >> $GITHUB_OUTPUT
-          fi
-      
-      - name: Run addons update script (if zips were added/updated)
-        if: steps.check_zips.outputs.has_zips == 'true'
-        run: python update_addons.py
-      
-      - name: Generate MD5 only (if addons.xml was manually edited)
-        if: steps.check_zips.outputs.has_zips == 'false'
+      - name: Generate MD5
         run: |
           import hashlib
           
+          # Read the addons.xml file
           xml_path = 'zips/addons.xml'
-          md5_path = 'zips/addons.md5'
-          
           with open(xml_path, 'r', encoding='utf-8') as f:
               content = f.read()
           
+          # Generate MD5
           md5_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
           
+          # Write to addons.md5
+          md5_path = 'zips/addons.md5'
           with open(md5_path, 'w') as f:
               f.write(md5_hash)
           
           print(f"Generated MD5: {md5_hash}")
         shell: python
       
-      - name: Commit and push changes
+      - name: Commit and push MD5 file
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          if git diff --quiet zips/addons.xml zips/addons.md5; then
-            echo "No changes detected"
+          if git diff --quiet zips/addons.md5; then
+            echo "No changes to MD5 file"
           else
-            git add zips/addons.xml zips/addons.md5
-            git commit -m "Auto-update addons.xml and MD5"
+            git add zips/addons.md5
+            git commit -m "Auto-generate MD5 for addons.xml"
             git push
           fi
