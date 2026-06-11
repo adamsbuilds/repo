@@ -12,6 +12,7 @@
         <summary>adamsbuilds</summary>
         <description>adamsbuilds repository</description>
         <disclaimer></disclaimer>
+		<source>https://adamsbuilds.github.io/repo/</source>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -19,7 +20,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.7" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
+<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.8" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -37,7 +38,7 @@
 		<forum></forum>
 		<website></website> 
 		<email></email>
-		<source>https://adamsbuilds.github.io/repo/</source>
+		<source><source>https://adamsbuilds.github.io/repo/</source></source>
 		<news></news>
 		<assets>
 				<icon>resources/icon.png</icon>
