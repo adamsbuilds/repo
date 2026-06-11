@@ -11,6 +11,7 @@
         <summary>adamsbuilds</summary>
         <description>adamsbuilds repository</description>
         <disclaimer></disclaimer>
+		<source>https://adamsbuilds.github.io/repo/</source>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
