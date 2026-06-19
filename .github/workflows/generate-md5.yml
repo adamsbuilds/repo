@@ -15,34 +15,20 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      # 1. Fetch only the most recent commit history to keep it lighting fast
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
-      
+          fetch-depth: 0
+
+      # 2. Use native Linux md5sum. Fast, lightweight, no Python setup required.
+      # Note: 'awk' strips the trailing filename out of the md5sum command output.
       - name: Generate MD5
         run: |
-          import hashlib
-          
-          # Read the addons.xml file
-          xml_path = 'zips/addons.xml'
-          with open(xml_path, 'r', encoding='utf-8') as f:
-              content = f.read()
-          
-          # Generate MD5
-          md5_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
-          
-          # Write to addons.md5
-          md5_path = 'zips/addons.md5'
-          with open(md5_path, 'w') as f:
-              f.write(md5_hash)
-          
-          print(f"Generated MD5: {md5_hash}")
-        shell: python
+          md5sum zips/addons.xml | awk '{print $1}' > zips/addons.md5
+          echo "Generated MD5: $(cat zips/addons.md5)"
       
+      # 3. Pull latest changes before pushing to avoid git rejection errors
       - name: Commit and push MD5 file
         run: |
           git config --local user.email "action@github.com"
@@ -52,6 +38,9 @@ jobs:
             echo "No changes to MD5 file"
           else
             git add zips/addons.md5
-            git commit -m "Auto-generate MD5 for addons.xml"
-            git push
+            git commit -m "Auto-generate MD5 for addons.xml [skip ci]"
+            
+            # Rebase ensures your runner pulls any late master commits before pushing
+            git pull --rebase origin master
+            git push origin master
           fi
