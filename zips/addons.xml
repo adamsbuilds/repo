@@ -20,7 +20,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.8" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
+<addon id="plugin.program.valarswizard" name="ValarsWizard" version="1.9" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -69,56 +69,5 @@
     <forum></forum>
     <source>https://github.com/BigNoid/context.trailer</source>
   </extension>
-</addon>
-<addon id="service.multiinstallmybinaries" name="[COLOR red]Install My Binaries[/COLOR]" version="1.0.1" provider-name="Zaxxon709">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-	</requires>
-	<extension point="xbmc.service" library="autoexec.py">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">[COLOR red]Installs binaries for The Red Wizard Live and Redflix TOTAL Kodi builds[/COLOR]</summary>
-		<description lang="en_GB">[COLOR red]Installs binary addons on first run required by The Red Wizard Live and Redflix TOTAL Kodi builds: "inputstream.adaptive", "inputstream.ffmpegdirect", "inputstream.rtmp" and "pvr.iptvsimple"[/COLOR]</description>
-		<platform>all</platform>
-		<news>[COLOR red]2025-11-11
-- Bug fix[/COLOR]</news>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<email>info@redwizard.xyz</email>
-		<website>https://www.redwizard.xyz/</website>
-		<forum>https://t.me/+XiuBf9KvPfw2MzVk</forum>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<fanart>resources/media/fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-<addon id="plugin.program.simplewizard" name="Simple Wizard" version="3.0.8a" provider-name="Slam, Sarge, Funsterbe, BYB">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Simple Wizard is a lightweight template for installing builds on Kodi. Has some code from Aftermath Wizard by Surfacingx. Skin Switch by OpenELEQ. Base code by BYB. Credits to them and all others who contributed. Please report any bugs to @slamious on Telegram/Twitter.</summary>
-		<description lang="en_GB">Kodi Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
-		<language>en</language>
-		<platform>all</platform>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website> 
-		<email></email>
-		<source></source>
-		<news></news>
-		<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<banner></banner>
-				<clearlogo></clearlogo>
-				<screenshot></screenshot>
-		</assets>
-	</extension>
 </addon>
 </addons>
