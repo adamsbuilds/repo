@@ -1,1 +1,12 @@
-1.7 - changelog coming soon
+[B][COLOR red]v1.8[/COLOR][/B]
+- Skin Update and modified for build.  Should no longer get a notification to install missing addon while addon is updating.  This would occur if the skin was trying to load a widget or data from an addon durring its update.  The result would be an option to install a missing addon.   Should be resolved in this update.
+[B][COLOR red]v1.7[/COLOR][/B]
+- Added The Loop for Sports content
+- Added Redlight as core movie and tv show addon
+- Added The Chains for random content and lists
+- Inclusion of The Vault, my personal trakt lists with my favorite movies and tv shows.  The widgets on the home screen will display random items from this list when loaded each time.
+- Added script.contexttrailer, my custom fork of an old addon to add context item for trailers
+- Added Youtube addon that don't require api (redwizard repo)
+- Gears Scraper setup as main scraper for Red Light
+- Fentastic Plus Skin customized and modified for build
+- Added custom scripts for fentastic plus skin.  Less Widgets and More Widgets
