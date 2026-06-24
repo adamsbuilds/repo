@@ -1,3 +1,5 @@
+[B][COLOR red]v1.9[/COLOR][/B]
+- Skin Update
 [B][COLOR red]v1.8[/COLOR][/B]
 - Skin Update and modified for build.  Should no longer get a notification to install missing addon while addon is updating.  This would occur if the skin was trying to load a widget or data from an addon durring its update.  The result would be an option to install a missing addon.   Should be resolved in this update.
 [B][COLOR red]v1.7[/COLOR][/B]
