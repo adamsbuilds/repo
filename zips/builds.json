@@ -12,9 +12,9 @@
 		},
 		{
 			"name": "test build",
-			"version": "1.0",
+			"version": "1.1",
 			"kodi": "K21",
-			"url": "https://archive.org/download/testbuild_20260621/testbuild.zip",
+			"url": "https://archive.org/download/test_20260625/test.zip",
 			"icon": "http://",
 			"fanart": "http://",
 			"description": "!!!TESTING PURPOSES ONLY!!! - I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
