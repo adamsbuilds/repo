@@ -1,5 +1,9 @@
 [B][COLOR red]v1.9[/COLOR][/B]
 - Skin Update
+- Changed the process for which I am blocking addon updates for skin and youtube.  Switched to versioning up the addon to avoild user error and accidently updating these addons
+- Clean wipe and fresh install of Red Light.  If trakt sync issues don't stick after a build update, Do a fresh start and reinstall build.
+[B][COLOR red]v1.9[/COLOR][/B]
+- Skin Update
 [B][COLOR red]v1.8[/COLOR][/B]
 - Skin Update and modified for build.  Should no longer get a notification to install missing addon while addon is updating.  This would occur if the skin was trying to load a widget or data from an addon durring its update.  The result would be an option to install a missing addon.   Should be resolved in this update.
 [B][COLOR red]v1.7[/COLOR][/B]
