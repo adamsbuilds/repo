@@ -11,6 +11,16 @@
 			"preview": "http://"
 		},
 		{
+			"name": "StreamFlix",
+			"version": "1.0",
+			"kodi": "K21",
+			"url": "https://archive.org/download/stream-flix-1.0/StreamFlix-1.0.zip",
+			"icon": "https://github.com/adamsbuilds/repo/raw/master/zips/repository.adamsbuilds/icon.png",
+			"fanart": "https://github.com/adamsbuilds/repo/raw/master/zips/repository.adamsbuilds/fanart.jpg",
+			"description": "New build with a netflix like feel.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"preview": "http://"
+		},		
+		{
 			"name": "test build",
 			"version": "1.1",
 			"kodi": "K21",
