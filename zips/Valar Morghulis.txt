@@ -1,4 +1,8 @@
-[B][COLOR red]v1.9[/COLOR][/B]
+[B][COLOR red]v2.5[/COLOR][/B]
+-General Addon update
+-fixed database for Red Light and my The Vault Section (update wiped the table that directed to my lists)
+-removal of EZ Maintenance.  My build wizard now handles this function [off by default].  It is in the settings of ValarsWizard.  You can turn on and set a schedule there.
+[B][COLOR red]v2.0[/COLOR][/B]
 - Skin Update
 - Changed the process for which I am blocking addon updates for skin and youtube.  Switched to versioning up the addon to avoild user error and accidently updating these addons
 - Clean wipe and fresh install of Red Light.  If trakt sync issues don't stick after a build update, Do a fresh start and reinstall build.
