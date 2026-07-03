@@ -1,16 +1,17 @@
-1
+2
 |||
-Welcome to the Valar Morghulis Build's Wizard!
+Welcome to the Valar Morghulis Build Wizard!
+PLEASE READ!!!
 
-                                            Build: Valar Morghulis
-   -I have placed 2 custom configs in the build for the FentasticPlus skin.  
-    Less Widgets.zip and More Widgets.zip can be found by clicking on the WRENCH icon on the home screen.
-                          Custom Configs>>Backup & Restore Configs>>Restore Config>>
-    These can be helpful if on low or high powered devices. (More Widgets is set by default)
-   -I have implemented "Play Trailer" in the context menu.  This will work for Movies, TV Shows, Episodes, ect
-   -The Vault is my personal Trakt lists.  Some of my favorite movies and shows.
-    The widgets displayed on homescreen will display random items from these 2 lists.
-   -Default Video Resoloution is set at 1080 in Redlight settings.  File size caps of 10gb movie, 5gb shows are on.
-    You can change these settings to your preference.
-   -Authorize your Premium services by clicking the wrench icon.
-   -Wizard will retain linked debrid and trakt accounts between updates if you choose these after wizard install.
+Recent updates to the wizard:
+-Authorize function inside wizard that will show installed addons and then services you can authorize witht them from the sub menus. [See Authorize Debrid/Trakt in build wizard]
+-Added Cleaning features to the maintenance section of the wizard to clean cache, packages, thumbs
+-Added an AutoClean feature that can be turned on in settings and set to run every X amount of days [off by default]  You can also choose to enable cleaning on boot (every boot).  I wouldn't use this though if you plan to set a schdule.
+-Saved Data will now retain all trakt and debrid data for all included addons in my builds.  This is provided you have selected Debrid/Trakt in the saved data settings of the wizard (accessed via settings or upon first launch of wizard)
+
+Builds Available [Kodi 21]
+Valar Morghulis
+This is a lightweight built built on the Fentastic Plus skin.  This is my build that I use daily.
+
+Valar Dohaeris [Kodi 21]
+A new built that is a bit heavier with a netflix like feel to navigation.  This build is built around the Artic Zephyr Reloaded skin that I modified a good deal. 
