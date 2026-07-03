@@ -1,4 +1,4 @@
-2
+3
 |||
 Welcome to the Valar Morghulis Build Wizard!
 PLEASE READ!!!
@@ -7,7 +7,7 @@ Recent updates to the wizard:
 -Authorize function inside wizard that will show installed addons and then services you can authorize witht them from the sub menus. [See Authorize Debrid/Trakt in build wizard]
 -Added Cleaning features to the maintenance section of the wizard to clean cache, packages, thumbs
 -Added an AutoClean feature that can be turned on in settings and set to run every X amount of days [off by default]  You can also choose to enable cleaning on boot (every boot).  I wouldn't use this though if you plan to set a schedule.
--Saved Data will now retain all trakt and debrid data for all included addons in my builds.  This is provided you have selected Debrid/Trakt in the saved data settings of the wizard (accessed via settings or upon first launch of wizard)
+-Saved Data will now retain all trakt and debrid data for all included addons in my builds upon build updates.  This is provided you have selected Debrid/Trakt in the saved data settings of the wizard (accessed via settings or upon first launch of wizard)
 
 BUILDS AVAILABLE
 Valar Morghulis [Kodi 21]
