@@ -1,5 +1,0 @@
-[B][COLOR red]v1.0[/COLOR][/B]
--Initial Release
--Heavily Modified Zephyr Reloaded Skin
--Inclusion of Aunthorizer, my addon to authorize services
-[B][COLOR red]v1.9[/COLOR][/B]

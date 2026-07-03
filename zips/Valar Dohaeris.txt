@@ -1,0 +1,8 @@
+[B][COLOR red]v1.0[/COLOR][/B]
+-Name Change to Valar Dohaeris
+-Skin Modified to brighten fanart
+-removal of authorizer, ezmaintenance and AccountManager addons.  My build wizard has been modified to handle all of these functions in version 2.6
+[B][COLOR red]v1.0[/COLOR][/B]
+-Initial Release
+-Heavily Modified Zephyr Reloaded Skin
+-Inclusion of Aunthorizer, my addon to authorize services
