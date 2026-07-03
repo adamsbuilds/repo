@@ -2,6 +2,7 @@
 -General Addon update
 -fixed database for Red Light and my The Vault Section (update wiped the table that directed to my lists)
 -removal of EZ Maintenance.  My build wizard now handles this function [off by default].  It is in the settings of ValarsWizard.  You can turn on and set a schedule there.
+-Toggled on Intro Skip Prompt in redlight.  Amazing feature that was added that offers an option to skip intros to shows.  Great work RedWizard!
 [B][COLOR red]v2.0[/COLOR][/B]
 - Skin Update
 - Changed the process for which I am blocking addon updates for skin and youtube.  Switched to versioning up the addon to avoild user error and accidently updating these addons
