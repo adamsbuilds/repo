@@ -11,7 +11,7 @@ Recent updates to the wizard:
 
 BUILDS AVAILABLE
 Valar Morghulis [Kodi 21]
-This is a lightweight built built on the Fentastic Plus skin.  This is my build that I use daily.
+This is a lightweight build built on the Fentastic Plus skin.  This is my build that I use daily.
 
 Valar Dohaeris [Kodi 21]
 A new built that is a bit heavier with a netflix like feel to navigation.  This build is built around the Artic Zephyr Reloaded skin that I modified a good deal. 
