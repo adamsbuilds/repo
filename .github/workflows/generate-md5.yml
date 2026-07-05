@@ -1,69 +1,61 @@
-name: Generate MD5 for addons.xml
+name: Pages build and deployment
 
 on:
   push:
     branches:
       - master
     paths:
-      - "zips/addons.xml"
+      # Only rebuild Pages when site-facing content changes
+      - "repository.adamsbuilds/**"
+      - ".nojekyll"
+      - "index.html"
+      - "404.html"
+      - "assets/**"
+      - "css/**"
+      - "js/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
+# Cancel older runs when newer commits arrive (faster feedback on latest commit)
 concurrency:
-  group: addons-md5-${{ github.ref }}
-  cancel-in-progress: false
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  generate-md5:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Verify required file exists
-        run: |
-          test -f zips/addons.xml
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Generate MD5 from addons.xml
-        run: |
-          md5sum zips/addons.xml | awk '{print $1}' > zips/addons.md5
-          echo "Generated MD5: $(cat zips/addons.md5)"
+      # If your site is already static files in repository.adamsbuilds/,
+      # upload that folder directly.
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: repository.adamsbuilds
 
-      - name: Commit and push addons.md5 (with retry)
-        env:
-          BRANCH_NAME: ${{ github.ref_name }}
-        run: |
-          set -euo pipefail
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    timeout-minutes: 10
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add zips/addons.md5
-
-          if git diff --cached --quiet; then
-            echo "No changes detected in zips/addons.md5; nothing to commit."
-            exit 0
-          fi
-
-          git commit -m "chore: auto-update zips/addons.md5 from zips/addons.xml"
-
-          # Retry handles rare race conditions when multiple pushes happen close together.
-          for attempt in 1 2 3 4 5; do
-            echo "Push attempt ${attempt}..."
-            if git pull --rebase origin "${BRANCH_NAME}" && git push origin "HEAD:${BRANCH_NAME}"; then
-              echo "Push succeeded."
-              exit 0
-            fi
-
-            echo "Push failed on attempt ${attempt}; retrying in $((attempt * 2))s..."
-            sleep $((attempt * 2))
-          done
-
-          echo "ERROR: Failed to push after multiple attempts."
-          exit 1
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
