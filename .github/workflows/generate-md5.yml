@@ -5,42 +5,65 @@ on:
     branches:
       - master
     paths:
-      - 'zips/addons.xml'
+      - "zips/addons.xml"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: addons-md5-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate-md5:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 5
+
     steps:
-      # 1. Fetch only the most recent commit history to keep it lighting fast
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
-      # 2. Use native Linux md5sum. Fast, lightweight, no Python setup required.
-      # Note: 'awk' strips the trailing filename out of the md5sum command output.
-      - name: Generate MD5
+      - name: Verify required file exists
+        run: |
+          test -f zips/addons.xml
+
+      - name: Generate MD5 from addons.xml
         run: |
           md5sum zips/addons.xml | awk '{print $1}' > zips/addons.md5
           echo "Generated MD5: $(cat zips/addons.md5)"
-      
-      # 3. Pull latest changes before pushing to avoid git rejection errors
-      - name: Commit and push MD5 file
+
+      - name: Commit and push addons.md5 (with retry)
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          
-          if git diff --quiet zips/addons.md5; then
-            echo "No changes to MD5 file"
-          else
-            git add zips/addons.md5
-            git commit -m "Auto-generate MD5 for addons.xml [skip ci]"
-            
-            # Rebase ensures your runner pulls any late master commits before pushing
-            git pull --rebase origin master
-            git push origin master
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add zips/addons.md5
+
+          if git diff --cached --quiet; then
+            echo "No changes detected in zips/addons.md5; nothing to commit."
+            exit 0
           fi
+
+          git commit -m "chore: auto-update zips/addons.md5 from zips/addons.xml"
+
+          # Retry handles rare race conditions when multiple pushes happen close together.
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git pull --rebase origin "${BRANCH_NAME}" && git push origin "HEAD:${BRANCH_NAME}"; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed on attempt ${attempt}; retrying in $((attempt * 2))s..."
+            sleep $((attempt * 2))
+          done
+
+          echo "ERROR: Failed to push after multiple attempts."
+          exit 1
