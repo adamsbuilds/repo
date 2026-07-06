@@ -2,9 +2,9 @@
 	"builds": [
 		{
 			"name": "Valar Morghulis",
-			"version": "2.6",
+			"version": "2.7",
 			"kodi": "K21",
-			"url": "https://archive.org/download/unique_item_name/Valar_Morghulis-2.6.zip",
+			"url": "https://archive.org/download/unique_item_name/Valar_Morghulis-2.7.zip",
 			"icon": "https://github.com/adamsbuilds/repo/raw/master/zips/repository.adamsbuilds/icon.png",
 			"fanart": "https://github.com/adamsbuilds/repo/raw/master/zips/repository.adamsbuilds/fanart.jpg",
 			"description": "Build built around a modified Fentastic Plus skin and Redlight as its main addon  There are 2 custom user scripts in fetastic plus maintenance button.  You can restore either More widgets.zip or Less Widgets.zip .  This can be chosen based on how powerful device is.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
