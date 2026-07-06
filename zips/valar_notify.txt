@@ -1,17 +1,9 @@
 4
 |||
-[B][U][COLOR gold]Welcome to the Valar's Build Wizard![/COLOR][/U][/B]
+                                  [B][COLOR gold]Welcome to the Valar's Build Wizard![/COLOR][/B]
 [B][COLOR red]PLEASE READ!!![/COLOR][/B]
 
-                        [B][COLOR deepskyblue]Recent updates to the wizard:[/COLOR][/B]
-• [B]Clean cache/packages/thumbs[/B] added to the maintenance menu (inspired by ez maintenance+).
-• [B]Optimize Database[/B] added to the maintenance menu (inspired by OptiClean and recommended by TheFather999). This will help to keep databases compact and Kodi snappy over time.
-• [B]Force Update Repos[/B] added to the maintenance menu. Does much of what it says. It will force an update of all installed repositories.
-• [B]Authorize[/B] function inside the wizard that will show installed addons and then services you can authorize with them from the sub-menus. [See Authorize Debrid/Trakt in build wizard]
-• [B]AutoClean[/B] feature that can be turned on in settings and set to run every X amount of days [ON by default].
-• [B]Saved Data[/B] will now retain all Trakt and Debrid data for all included addons in my builds upon build updates. This is provided you have selected Debrid/Trakt in the saved data settings of the wizard (accessed via settings or upon first launch of wizard).
-
-                                    [B][U][COLOR gold]BUILDS AVAILABLE[/COLOR][/U][/B]
+                                            [B][COLOR gold]BUILDS AVAILABLE[/COLOR][/B]
 
 [B][COLOR darkorange]Valar Morghulis [Kodi 21][/COLOR][/B]
 This is a lightweight build built on the Fentastic Plus skin. This is my build that I use daily.
@@ -20,3 +12,11 @@ This is a lightweight build built on the Fentastic Plus skin. This is my build t
 [B][COLOR darkorange]Valar Dohaeris [Kodi 21][/COLOR][/B]
 A new build that is a bit heavier with a Netflix-like feel to navigation. This build is built around the Arctic Zephyr Reloaded skin that I modified a good deal.
 This is an initial release and more updates will soon come.
+
+                                       [B][COLOR deepskyblue]Recent updates to the wizard:[/COLOR][/B]
+• [B]Clean cache/packages/thumbs[/B] added to the maintenance menu (inspired by ez maintenance+).
+• [B]Optimize Database[/B] added to the maintenance menu (inspired by OptiClean and recommended by TheFather999). This will help to keep databases compact and Kodi snappy over time.
+• [B]Force Update Repos[/B] added to the maintenance menu. Does much of what it says. It will force an update of all installed repositories.
+• [B]Authorize[/B] function inside the wizard that will show installed addons and then services you can authorize with them from the sub-menus. [See Authorize Debrid/Trakt in build wizard]
+• [B]AutoClean[/B] feature that can be turned on in settings and set to run every X amount of days [ON by default].
+• [B]Saved Data[/B] will now retain all Trakt and Debrid data for all included addons in my builds upon build updates. This is provided you have selected Debrid/Trakt in the saved data settings of the wizard (accessed via settings or upon first launch of wizard).
