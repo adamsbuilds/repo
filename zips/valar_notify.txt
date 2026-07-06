@@ -1,9 +1,9 @@
 4
 |||
-                                  [B][COLOR gold]Welcome to the Valar's Build Wizard![/COLOR][/B]
+                                                        [B][COLOR gold]Welcome to Valar's Wizard![/COLOR][/B]
 [B][COLOR red]PLEASE READ!!![/COLOR][/B]
 
-                                            [B][COLOR gold]BUILDS AVAILABLE[/COLOR][/B]
+                                                           [B][COLOR gold]BUILDS AVAILABLE[/COLOR][/B]
 
 [B][COLOR darkorange]Valar Morghulis [Kodi 21][/COLOR][/B]
 This is a lightweight build built on the Fentastic Plus skin. This is my build that I use daily.
@@ -13,7 +13,7 @@ This is a lightweight build built on the Fentastic Plus skin. This is my build t
 A new build that is a bit heavier with a Netflix-like feel to navigation. This build is built around the Arctic Zephyr Reloaded skin that I modified a good deal.
 This is an initial release and more updates will soon come.
 
-                                       [B][COLOR deepskyblue]Recent updates to the wizard:[/COLOR][/B]
+                                                         [B][COLOR deepskyblue]Recent updates to the wizard:[/COLOR][/B]
 • [B]Clean cache/packages/thumbs[/B] added to the maintenance menu (inspired by ez maintenance+).
 • [B]Optimize Database[/B] added to the maintenance menu (inspired by OptiClean and recommended by TheFather999). This will help to keep databases compact and Kodi snappy over time.
 • [B]Force Update Repos[/B] added to the maintenance menu. Does much of what it says. It will force an update of all installed repositories.
