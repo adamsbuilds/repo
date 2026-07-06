@@ -1,17 +1,22 @@
-3
+4
 |||
-Welcome to the Valar Morghulis Build Wizard!
-PLEASE READ!!!
+[b][u]Welcome to the Valar's Build Wizard![/u][/b]
+[b]PLEASE READ!!![/b]
 
-Recent updates to the wizard:
+[b]Recent updates to the wizard:[/b]
+-Clean cache/packages/thumbs added to maintennce menu (inspired by ez mantence+)
+-Optimize Database added to maintence menu of wizaired (inspired by OptiClean) (and reccomended by TheFather999)
+This will help to keep databases compact and kodi snappy over time.
+-Added Force Update Repos to the maintence menu.  Does much of what it says.  It will forc
 -Authorize function inside wizard that will show installed addons and then services you can authorize witht them from the sub menus. [See Authorize Debrid/Trakt in build wizard]
--Added Cleaning features to the maintenance section of the wizard to clean cache, packages, thumbs
--Added an AutoClean feature that can be turned on in settings and set to run every X amount of days [off by default]  You can also choose to enable cleaning on boot (every boot).  I wouldn't use this though if you plan to set a schedule.
+-Added an AutoClean feature that can be turned on in settings and set to run every X amount of days [ON by default]
 -Saved Data will now retain all trakt and debrid data for all included addons in my builds upon build updates.  This is provided you have selected Debrid/Trakt in the saved data settings of the wizard (accessed via settings or upon first launch of wizard)
 
-BUILDS AVAILABLE
-Valar Morghulis [Kodi 21]
+[b][u]BUILDS AVAILABLE[/u][/b]
+[b]Valar Morghulis [Kodi 21][/b]
 This is a lightweight build built on the Fentastic Plus skin.  This is my build that I use daily.
+-3 Custom Configs are available for this build in the Wrench Icon on home screen in top right.  Less, More, Max Widgets.  Go to custom configs and restore to select one.  Max is slected by default.
 
-Valar Dohaeris [Kodi 21]
-A new built that is a bit heavier with a netflix like feel to navigation.  This build is built around the Artic Zephyr Reloaded skin that I modified a good deal. 
+[b]Valar Dohaeris [Kodi 21][/b]
+A new build that is a bit heavier with a netflix like feel to navigation.  This build is built around the Artic Zephyr Reloaded skin that I modified a good deal.
+This is an initial release and more updates will soon come
