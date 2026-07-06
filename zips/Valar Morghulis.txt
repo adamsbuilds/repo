@@ -1,3 +1,6 @@
+[B][COLOR red]v2.7[/COLOR][/B]
+-Added a new custom config (accesible via the wrench icon on home screen).  Max Widgets - added more widgets to the Movies, TV Shows and Anime Menu items.  Watch Next Episode, In Progress, ect.
+-General Addon update and cleanup of build.
 [B][COLOR red]v2.5[/COLOR][/B]
 -General Addon update
 -fixed database for Red Light and my The Vault Section (update wiped the table that directed to my lists)
