@@ -7,7 +7,7 @@
 
 [B][COLOR darkorange]Valar Morghulis [Kodi 21][/COLOR][/B]
 This is a lightweight build built on the Fentastic Plus skin. This is my build that I use daily.
-• 3 Custom Configs are available for this build in the Wrench Icon on the home screen in the top lft: Less, More, Max Widgets. Go to custom configs and restore to select one. Max is selected by default.
+• 3 Custom Configs are available for this build in the Wrench Icon on the home screen in the top left: Less, More, Max Widgets. Go to custom configs and restore to select one. Max is selected by default.
 
 [B][COLOR darkorange]Valar Dohaeris [Kodi 21][/COLOR][/B]
 A new build that is a bit heavier with a Netflix-like feel to navigation. This build is built around the Arctic Zephyr Reloaded skin that I modified a good deal.
