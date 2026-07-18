@@ -70,56 +70,35 @@
     <source>https://github.com/BigNoid/context.trailer</source>
   </extension>
 </addon>
-<addon id="plugin.program.authorizer"
-       name="Authorizer"
-       version="1.0.0"
-       provider-name="adamsbuilds">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Standalone authorization launcher for supported Kodi addons.</summary>
-    <description lang="en_GB">Authorizer detects supported installed addons and launches Trakt, Real-Debrid, Premiumize, All-Debrid, and Torbox authorization flows from one place.</description>
-    <platform>all</platform>
-    <source>https://adamsbuilds.github.io/repo</source>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-    </assets>
-  </extension>
-</addon>
-<addon id="plugin.program.zzztestwizard" name="zzzTestWizard" version="3.1" provider-name="Slam, Sarge, Funsterbe, BYB, adamsbuilds">
+<addon id="skin.nimbus" version="0.1.43r" name="Nimbus"
+	provider-name="Ivar Brandt">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.gui" version="5.17.0" />
+		<import addon="script.nimbus.helper" version="0.0.50"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
-	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">ValarsWizard is a tool for backup/restore and maintenance of Kodi builds.  Forked from simplewizard.</summary>
-		<description lang="en_GB">Kodi Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content.  Creator assumes no responsibily for content obtained by 3rd party addons. Use at your own risk!</disclaimer>
-		<language>en</language>
 		<platform>all</platform>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website> 
-		<email></email>
-		<source>https://adamsbuilds.github.io/repo/</source>
-		<news></news>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<banner></banner>
-				<clearlogo></clearlogo>
-				<screenshot></screenshot>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
 		</assets>
+		<summary lang="en_GB">Nimbus skin by Ivar Brandt</summary>
+		<summary lang="en_NZ">Nimbus skin by Ivar Brandt</summary>
+		<summary lang="en_US">Nimbus skin by Ivar Brandt</summary>
+		<description lang="en_GB">Nimbus Skin</description>
+		<description lang="en_NZ">Nimbus Skin</description>
+		<description lang="en_US">Nimbus Skin</description>
 	</extension>
 </addon>
 </addons>
