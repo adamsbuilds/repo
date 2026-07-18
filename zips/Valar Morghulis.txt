@@ -1,3 +1,10 @@
+[B][COLOR red]v2.8[/COLOR][/B]
+-Skin update
+-General Addon update
+-Widget Refinement
+-Lowered volume of GUI Sounds
+-Tweaked redlight settings: autoplay next episode and intro skip
+-Performance Improvements
 [B][COLOR red]v2.7[/COLOR][/B]
 -Added a new custom config (accesible via the wrench icon on home screen).  Max Widgets - added more widgets to the Movies, TV Shows and Anime Menu items.  Watch Next Episode, In Progress, ect.
 -General Addon update and cleanup of build.
