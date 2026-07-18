@@ -12,9 +12,9 @@
 		},
 		{
 			"name": "Valar Dohaeris",
-			"version": "1.0",
+			"version": "1.1",
 			"kodi": "K21",
-			"url": "https://www.dropbox.com/scl/fi/1w52tttwabpltbocka2pz/Valar_Dohaeris-1.1.zip?rlkey=hmnucsvg1p5crrvfcxe0t3iaz&st=ure9st3o&raw=1",
+			"url": "https://archive.org/download/valar-dohaeris-1.1/Valar_Dohaeris-1.1.zip",
 			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
 			"description": "New build with a netflix like feel.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
