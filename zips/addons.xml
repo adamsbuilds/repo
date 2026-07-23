@@ -70,7 +70,7 @@
     <source>https://github.com/BigNoid/context.trailer</source>
   </extension>
 </addon>
-<addon id="skin.nimbus" version="0.1.47" name="Nimbus Plus"
+<addon id="skin.nimbus" version="0.1.48" name="Nimbus Plus"
 	provider-name="Ivar Brandt, adamsbuilds">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
