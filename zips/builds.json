@@ -14,10 +14,10 @@
 			"name": "Nymeria",
 			"version": "1.0",
 			"kodi": "K21",
-			"url": "https://archive.org/download/nymeria-1.0/Nymeria-1.0.zip",
+			"url": "https://archive.org/download/nymeria-1.1/Nymeria-1.1.zip",
 			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
-			"description": "Lite build built around my own fork of Nimbus skin.  Sub Menus added to home screen and custom views!  Use at your own risk",
+			"description": "Lite build built around Nimbus Plus (my skin).  Sub Menus added to home screen!  Use at your own risk",
 			"preview": "http://"
 		},		
 		{
