@@ -29,6 +29,16 @@
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
 			"description": "New build with a netflix like feel.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
 			"preview": "http://"
+		},
+		{
+			"name": "Total Red",
+			"version": "1.0",
+			"kodi": "K21",
+			"url": "https://archive.org/download/jbnimbusbuild/jbnimbusbuild.zip",
+			"icon": "",
+			"fanart": "",
+			"description": "COMMUNITY BUILD by: JB - Based on the nimbus plus skin.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"preview": "http://"
 		}
 	]
 }
