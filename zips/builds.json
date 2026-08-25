@@ -7,9 +7,19 @@
 			"url": "https://archive.org/download/nymeria-1.1/Nymeria-1.1.zip",
 			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
-			"description": "Lite build built around Nimbus Plus (my skin).  Sub Menus added to home screen!  Use at your own risk",
+			"description": "Built on my own skin Nimbus Plus.  This is my main build I use daily.  Sub Menus added to home screen!  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
 			"preview": "http://"
-		},		
+		},
+		{
+			"name": "Valar Morghulis Lite",
+			"version": "1.0",
+			"kodi": "K21",
+			"url": "https://archive.org/download/nymeria-1.1/Nymeria-1.1.zip",
+			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"description": "Lite version of Valar Morghulis (less widgets.. better performance)  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
+			"preview": "http://"
+		},	
 		{
 			"name": "Valar Morghulis (fentastic plus)",
 			"version": "2.8",
@@ -17,7 +27,7 @@
 			"url": "https://archive.org/download/valar-morghulis-2.8_202607/Valar_Morghulis-2.8.zip",
 			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valarmorghulis.png",
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valarmorghulis.png",
-			"description": "Build built around a modified Fentastic Plus skin and Redlight as its main addon  There are 3 custom user scripts in fetastic plus maintenance button.  You can choose Less, More or Max Widgets .  This can be chosen based on how powerful device is.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"description": "Older version built on fentastic plus skin.  You can choose Less, More or Max Widgets .  This can be chosen based on how powerful device is.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
 			"preview": "http://"
 		},
 		{
@@ -27,7 +37,7 @@
 			"url": "https://archive.org/download/valar-dohaeris-1.1/Valar_Dohaeris-1.1.zip",
 			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
-			"description": "New build with a netflix like feel.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"description": "CURRENTLY NOT UPDATED. I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
 			"preview": "http://"
 		},
 		{
