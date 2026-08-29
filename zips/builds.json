@@ -2,9 +2,9 @@
 	"builds": [
 		{
 			"name": "Valar Morghulis",
-			"version": "1.2",
+			"version": "1.3",
 			"kodi": "K21",
-			"url": "https://archive.org/download/val-1.2/val-1.2.zip",
+			"url": "https://archive.org/download/val-1.3/val-1.3.zip",
 			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
 			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
 			"description": "Built on my own skin Nimbus Plus.  This is my main build I use daily.  Sub Menus added to home screen!  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
@@ -44,6 +44,56 @@
 			"name": "Nimbus Red",
 			"version": "1.1",
 			"kodi": "K21",
+			"url": "https://archive.org/download/nimbus-red/nimbus%20red.zip",
+			"icon": "http://",
+			"fanart": "http://",
+			"description": "COMMUNITY BUILD by: JB - Based on the nimbus plus skin.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"preview": "http://"
+		},
+		{
+			"name": "Valar Morghulis",
+			"version": "1.3",
+			"kodi": "K22",
+			"url": "https://archive.org/download/val-1.3/val-1.3.zip",
+			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"description": "Built on my own skin Nimbus Plus.  This is my main build I use daily.  Sub Menus added to home screen!  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
+			"preview": "http://"
+		},
+		{
+			"name": "Valar Morghulis Lite",
+			"version": "1.0",
+			"kodi": "K22",
+			"url": "https://archive.org/download/val-lite-1.0/val-lite-1.0.zip",
+			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"description": "Lite version of Valar Morghulis (less widgets.. better performance)  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
+			"preview": "http://"
+		},	
+		{
+			"name": "Valar Morghulis (fentastic plus)",
+			"version": "2.8",
+			"kodi": "K22",
+			"url": "https://archive.org/download/valar-morghulis-2.8_202607/Valar_Morghulis-2.8.zip",
+			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valarmorghulis.png",
+			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valarmorghulis.png",
+			"description": "Older version built on fentastic plus skin.  You can choose Less, More or Max Widgets .  This can be chosen based on how powerful device is.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"preview": "http://"
+		},
+		{
+			"name": "Valar Dohaeris",
+			"version": "1.1",
+			"kodi": "K22",
+			"url": "https://archive.org/download/valar-dohaeris-1.1/Valar_Dohaeris-1.1.zip",
+			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
+			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/valardohaeris.png",
+			"description": "CURRENTLY NOT UPDATED. I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk.",
+			"preview": "http://"
+		},
+		{
+			"name": "Nimbus Red",
+			"version": "1.1",
+			"kodi": "K22",
 			"url": "https://archive.org/download/nimbus-red/nimbus%20red.zip",
 			"icon": "http://",
 			"fanart": "http://",
