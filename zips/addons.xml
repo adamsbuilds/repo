@@ -71,11 +71,11 @@
     <source>https://github.com/BigNoid/context.trailer</source>
   </extension>
 </addon>
-<addon id="skin.nimbus" version="0.1.84" name="Nimbus Plus"
+<addon id="skin.nimbus" version="0.1.83" name="Nimbus Plus"
 	provider-name="adamsbuilds, Ivar Brandt">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.nimbus.helper" version="0.0.84"/>
+		<import addon="script.nimbus.helper" version="0.0.83"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -102,7 +102,7 @@
 		<description lang="en_US">Nimbus Plus Skin</description>
 	</extension>
 </addon>
-<addon id="script.nimbus.helper" name="Nimbus Plus Helper" version="0.0.84" provider-name="Ivar Brandt, adamsbuilds">
+<addon id="script.nimbus.helper" name="Nimbus Plus Helper" version="0.0.83" provider-name="Ivar Brandt, adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
