@@ -48,7 +48,7 @@
 				<screenshot></screenshot>
 		</assets>
 	</extension>
-<addon id="context.trailer" name="Play Trailer" version="1.5.0" provider-name="BigNoid, adamsbuilds">
+<addon id="context.trailer" name="Play Trailer" version="1.5" provider-name="BigNoid, adamsbuilds">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
