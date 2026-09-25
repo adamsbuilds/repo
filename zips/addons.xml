@@ -70,11 +70,11 @@
     <source>https://github.com/BigNoid/context.trailer</source>
   </extension>
 </addon>
-<addon id="skin.nimbus" version="0.2.03" name="Nimbus Plus"
+<addon id="skin.nimbus" version="0.2.04" name="Nimbus Plus"
 	provider-name="adamsbuilds, Ivar Brandt">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
-		<import addon="script.nimbus.helper" version="0.0.96"/>
+		<import addon="script.nimbus.helper" version="0.0.97"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -101,7 +101,7 @@
 		<description lang="en_US">Nimbus Plus Skin</description>
 	</extension>
 </addon>
-<addon id="script.nimbus.helper" name="Nimbus Plus Helper" version="0.0.96" provider-name="Ivar Brandt, adamsbuilds">
+<addon id="script.nimbus.helper" name="Nimbus Plus Helper" version="0.0.97" provider-name="Ivar Brandt, adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -109,6 +109,14 @@
     </requires>
     <extension point="xbmc.python.library" library="resources/lib/default.py"/>
     <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources/lib/context_refresh_widget.py">
+                <label>Refresh widget</label>
+                <visible>Window.IsVisible(home) + [ControlGroup(19001).HasFocus() | ControlGroup(22001).HasFocus() | ControlGroup(23001).HasFocus() | ControlGroup(24001).HasFocus() | ControlGroup(25001).HasFocus() | ControlGroup(26001).HasFocus() | ControlGroup(27001).HasFocus() | ControlGroup(28001).HasFocus() | ControlGroup(29001).HasFocus() | ControlGroup(30001).HasFocus() | ControlGroup(31001).HasFocus() | ControlGroup(32001).HasFocus()]</visible>
+            </item>
+        </menu>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <news />
         <platform>all</platform>
