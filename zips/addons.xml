@@ -176,4 +176,39 @@
 		</assets>
 	</extension>
 </addon>
+<addon id="skin.onyx" version="1.0.0" name="Onyx" provider-name="adamsbuilds">
+  <requires>
+    <import addon="xbmc.gui" version="5.17.0"/>
+  </requires>
+  
+  <extension
+    point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+  </extension>
+      
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+	<summary lang="en_GB">A no-nonsense UI designed to showcase your fanart.</summary>
+    <summary lang="en_US">A no-nonsense UI designed to showcase your fanart.</summary>
+	<description lang="en_GB">Onyx is a light-weight skin forked from Quartz.</description>
+    <description lang="en_US">Onyx is a light-weight skin forked from Quartz.</description>
+	<disclaimer lang="en_GB">Fork of Quartz original dev: pecinko</disclaimer>
+	<disclaimer lang="en_US">Fork of Quartz original dev: pecinko</disclaimer>
+	<forum></forum>
+	<source>https://adamsbuilds.github.io/repo/</source>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+		<screenshot>resources/screenshot-04.jpg</screenshot>
+		<screenshot>resources/screenshot-05.jpg</screenshot>
+		<screenshot>resources/screenshot-06.jpg</screenshot>
+		<screenshot>resources/screenshot-07.jpg</screenshot>
+		<screenshot>resources/screenshot-08.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
 </addons>
