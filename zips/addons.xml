@@ -176,7 +176,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="skin.onyx" version="1.0.0" name="Onyx" provider-name="adamsbuilds">
+<addon id="skin.onyx" version="1.0.1" name="Onyx" provider-name="adamsbuilds">
   <requires>
     <import addon="xbmc.gui" version="5.17.0"/>
   </requires>
