@@ -211,37 +211,40 @@
 	</assets>
   </extension>
 </addon>
-<addon id="script.existenz.helper" name="eXistenZ Skin Helper" version="0.2.2" provider-name="you">
+<addon id="script.existenz.helper" name="eXistenZ Skin Helper" version="0.2.3" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.python.library" library="default.py"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Helper for the skin (home row and sidebar pickers)</summary>
-        <description lang="en">Lets the skin pick what its home screen rows and sidebar entries show or open: library lists, add-on folders, sources, Kodi screens, or a path typed in by hand.</description>
+        <summary lang="en">Helper for the eXistenZ skin (home row and sidebar pickers)</summary>
+        <description lang="en">Lets the eXistenZ skin pick what its home screen rows and sidebar entries show or open: library lists, add-on folders (directly or through Widget Bridge), sources, Kodi screens, or a path typed in by hand.</description>
         <platform>all</platform>
         <license>GPL-3.0</license>
+        <source>https://adamsbuilds.github.io/repo/</source>
     </extension>
 </addon>
-<addon id="skin.existenz" version="0.2.2" name="eXistenZ" provider-name="you">
+<addon id="skin.existenz" version="0.2.3" name="eXistenZ" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
-        <import addon="script.existenz.helper" version="0.2.2"/>
+        <import addon="script.existenz.helper" version="0.2.3"/>
     </requires>
     <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Netflix-style skin for Kodi (customizable home rows, sidebar and top bar)</summary>
+        <description lang="en">A Netflix-style skin built for Android TV boxes and other low-powered devices. Up to eight home pages, each with up to eight rows from any add-on, library list or folder; a customizable sidebar and top bar; a Netflix-like player and OSD; watched and progress bars on the artwork; and a Widget Behavior setting (Normal or Safe) for add-ons that crash when several of their rows load at once.</description>
         <platform>all</platform>
-        <license>GPL-3.0</license>
+        <license>GPL-3.0-only AND CC-BY-SA-4.0</license>
+        <source>https://adamsbuilds.github.io/repo/</source>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.widgetbridge" name="Widget Bridge" version="1.0.1" provider-name="adamsbuilds">
+<addon id="plugin.video.widgetbridge" name="Widget Bridge" version="1.0.2" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
