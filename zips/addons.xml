@@ -241,4 +241,23 @@
         </assets>
     </extension>
 </addon>
+<addon id="plugin.video.widgetbridge" name="Widget Bridge" version="1.0.1" provider-name="adamsbuilds">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Load any add-on's lists as widgets in their own Python instance</summary>
+        <description lang="en">Browse any installed add-on through Widget Bridge and use the folder you end on as a widget / home row. The add-on's own code runs, but in a fresh Python instance for every widget, so add-ons that use reuselanguageinvoker keep that speed-up for browsing while their widgets load side by side without fighting over the one reused instance.</description>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+		<source>https://adamsbuilds.github.io/repo/</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 </addons>
