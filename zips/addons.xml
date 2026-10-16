@@ -224,7 +224,7 @@
         <source>https://adamsbuilds.github.io/repo/</source>
     </extension>
 </addon>
-<addon id="skin.existenz" version="0.2.3" name="eXistenZ" provider-name="adamsbuilds">
+<addon id="skin.existenz" version="0.2.4" name="eXistenZ" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.existenz.helper" version="0.2.3"/>
@@ -244,7 +244,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.widgetbridge" name="Widget Bridge" version="1.0.3" provider-name="adamsbuilds">
+<addon id="plugin.video.widgetbridge" name="Widget Bridge" version="1.0.4" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
