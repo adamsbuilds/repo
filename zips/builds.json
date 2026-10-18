@@ -1,6 +1,16 @@
 {
 	"builds": [
 		{
+			"name": "Gossamer",
+			"version": "1.0",
+			"kodi": "K21",
+			"url": "https://archive.org/download/gossamer-1.0/Gossamer-1.0.zip",
+			"icon": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"fanart": "https://raw.githubusercontent.com/adamsbuilds/repo/refs/heads/master/zips/nymeria.png",
+			"description": "Lightweight built built on my own skin Onyx.  This build has limited widgets and is faster than estuary.  I do not host any content and am not responsible for content obtained by 3rd party kodi addons.  Use at your own risk",
+			"preview": "http://"
+		},
+		{
 			"name": "Valar Morghulis",
 			"version": "1.4",
 			"kodi": "K21",
