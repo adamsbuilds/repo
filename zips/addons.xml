@@ -262,7 +262,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="script.shortfuse.helper" name="Short Fuse Helper" version="1.0.0" provider-name="adamsbuilds, jurialmunkey">
+<addon id="script.shortfuse.helper" name="Short Fuse Helper" version="1.0.1" provider-name="adamsbuilds, jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
 </requires>
@@ -283,10 +283,10 @@
   </assets>
 </extension>
 </addon>
-<addon id="skin.shortfuse" name="Short Fuse" provider-name="adamsbuilds, jurialmunkey" version="1.0.0">
+<addon id="skin.shortfuse" name="Short Fuse" provider-name="adamsbuilds, jurialmunkey" version="1.0.1">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="script.shortfuse.helper" version="1.0.0" />
+        <import addon="script.shortfuse.helper" version="1.0.1" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
     </requires>
