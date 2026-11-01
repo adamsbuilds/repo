@@ -180,7 +180,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="skin.onyx" version="1.0.7" name="Onyx" provider-name="adamsbuilds">
+<addon id="skin.onyx" version="1.0.8" name="Onyx" provider-name="adamsbuilds">
   <requires>
     <import addon="xbmc.gui" version="5.17.0"/>
   </requires>
