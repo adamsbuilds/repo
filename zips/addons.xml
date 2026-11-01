@@ -347,4 +347,35 @@
 		</assets>
 	</extension>
 </addon>
+<addon id="plugin.video.tubelite" name="TubeLite" version="1.1.0" provider-name="adamsbuilds">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="inputstream.adaptive" version="20.0.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>30100</label>
+                <visible>String.IsEqual(Window(Home).Property(tubelite.context),1) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode)]</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">YouTube without an API key or account</summary>
+        <description lang="en_GB">Browse, search and play YouTube the way the website works when you're not signed in. No API key, no login. Can stand in for the YouTube add-on so library trailers, info-screen trailer buttons and other add-ons' YouTube links play through it, and keeps itself working by checking which YouTube player clients still work. Includes a TV and movie trailer finder, new trailers this week, studio channels, saved channels and watch history stored on your device.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <source>https://adamsbuilds.github.io/repo/</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>1.1.0 - Stands in for the YouTube add-on so Kodi trailers play natively, library trailer fill, Play trailer context menu, self-updating player clients</news>
+    </extension>
+</addon>
 </addons>
