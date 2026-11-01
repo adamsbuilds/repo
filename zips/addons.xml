@@ -347,7 +347,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.tubelite" name="TubeLite" version="1.1.1" provider-name="adamsbuilds">
+<addon id="plugin.video.youtube" name="TubeLite" version="100.1.0" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -366,8 +366,8 @@
         </menu>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">YouTube without an API key or account</summary>
-        <description lang="en_GB">Browse, search and play YouTube the way the website works when you're not signed in. No API key, no login. Can stand in for the YouTube add-on so library trailers, info-screen trailer buttons and other add-ons' YouTube links play through it, and keeps itself working by checking which YouTube player clients still work. Includes a TV and movie trailer finder, new trailers this week, studio channels, saved channels and watch history stored on your device.</description>
+        <summary lang="en_GB">YouTube for Kodi without an API key</summary>
+        <description lang="en_GB">A SmartTube-style YouTube add-on. Works signed out like the website, or sign in with a code at youtube.com/activate for your Home, Subscriptions, Watch Later, Liked videos, playlists and history. No API key or Google Cloud project. SponsorBlock skipping, a TV and movie trailer finder, and it uses the YouTube add-on's id so library trailers, info-screen Trailer buttons and other add-ons' YouTube links play through it. Keeps itself working by checking which YouTube player clients still work.</description>
         <platform>all</platform>
         <license>GPL-3.0-or-later</license>
         <source>https://adamsbuilds.github.io/repo/</source>
@@ -375,7 +375,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>1.1.1 - Fixed playback through the YouTube stand-in (requests module not found). 1.1.0 - Stands in for the YouTube add-on so Kodi trailers play natively, library trailer fill, Play trailer context menu, self-updating player clients</news>
+        <news>100.1.0 - TubeLite is now the YouTube add-on itself (plugin.video.youtube): sign in without an API key, Home/Subscriptions/Watch Later/Liked/History, like and subscribe, SponsorBlock, plays the standard cut when a trailer is age-restricted</news>
     </extension>
 </addon>
 </addons>
