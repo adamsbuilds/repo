@@ -347,7 +347,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.youtube" name="TubeLite" version="100.2.0" provider-name="adamsbuilds">
+<addon id="plugin.video.youtube" name="TubeLite" version="100.2.1" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -375,7 +375,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>100.2.0 - Sign in by scanning a QR code; main menu laid out like YouTube (Home, Shorts, Subscriptions, You, Explore with Trending, Music, Movies &amp; TV, Live, Gaming, News, Sports and Trailers, Search), and Home and Explore now work signed out. 100.1.0 - TubeLite is now the YouTube add-on itself (plugin.video.youtube): sign in without an API key, Home/Subscriptions/Watch Later/Liked/History, like and subscribe, SponsorBlock, plays the standard cut when a trailer is age-restricted</news>
+        <news>100.2.1 - No first-run setup; search shows results straight away; Trending falls back when YouTube refuses it; Movies &amp; TV titles play their trailer; missing titles filled in; signed-in account shown in settings. 100.2.0 - Sign in by scanning a QR code; main menu laid out like YouTube (Home, Shorts, Subscriptions, You, Explore with Trending, Music, Movies &amp; TV, Live, Gaming, News, Sports and Trailers, Search), and Home and Explore now work signed out. 100.1.0 - TubeLite is now the YouTube add-on itself (plugin.video.youtube): sign in without an API key, Home/Subscriptions/Watch Later/Liked/History, like and subscribe, SponsorBlock, plays the standard cut when a trailer is age-restricted</news>
     </extension>
 </addon>
 </addons>
