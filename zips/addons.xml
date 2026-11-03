@@ -347,7 +347,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.youtube" name="TubeLite" version="100.2.1" provider-name="adamsbuilds">
+<addon id="plugin.video.youtube" name="TubeLite" version="100.4.3" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -367,7 +367,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">YouTube for Kodi without an API key</summary>
-        <description lang="en_GB">A SmartTube-style YouTube add-on. Works signed out like the website, or sign in with a code at youtube.com/activate for your Home, Subscriptions, Watch Later, Liked videos, playlists and history. No API key or Google Cloud project. SponsorBlock skipping, a TV and movie trailer finder, and it uses the YouTube add-on's id so library trailers, info-screen Trailer buttons and other add-ons' YouTube links play through it. Keeps itself working by checking which YouTube player clients still work.</description>
+        <description lang="en_GB">A SmartTube-style YouTube add-on. Works signed out like the website, or sign in with a code at youtube.com/activate for your Home, Subscriptions, Watch Later, Liked videos, playlists and history. No API key or Google Cloud project. Signed in, age-restricted videos play too, unscrambled by TubeLite's own built-in JavaScript engine (nothing extra to install). SponsorBlock skipping, YouTube's free movies, a TV and movie trailer finder, and it uses the YouTube add-on's id so library trailers, info-screen Trailer buttons and other add-ons' YouTube links play through it. Keeps itself working by checking which YouTube player clients still work.</description>
         <platform>all</platform>
         <license>GPL-3.0-or-later</license>
         <source>https://adamsbuilds.github.io/repo/</source>
@@ -375,7 +375,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>100.2.1 - No first-run setup; search shows results straight away; Trending falls back when YouTube refuses it; Movies &amp; TV titles play their trailer; missing titles filled in; signed-in account shown in settings. 100.2.0 - Sign in by scanning a QR code; main menu laid out like YouTube (Home, Shorts, Subscriptions, You, Explore with Trending, Music, Movies &amp; TV, Live, Gaming, News, Sports and Trailers, Search), and Home and Explore now work signed out. 100.1.0 - TubeLite is now the YouTube add-on itself (plugin.video.youtube): sign in without an API key, Home/Subscriptions/Watch Later/Liked/History, like and subscribe, SponsorBlock, plays the standard cut when a trailer is age-restricted</news>
+        <news>100.4.3 - Signed in, age-restricted videos play: TubeLite's own built-in JavaScript engine unscrambles YouTube's TV app streams (nothing extra to install), encrypted TV episodes included. Browse as your main account or one of your channels (You → Browse as); age-restricted videos always use the main account. Free Movies: YouTube's free-with-ads movies play in full through Widevine. The paid Movies &amp; TV section is gone. Check playback in any video's context menu; errors are saved under You → Show last error. 100.2.1 - No first-run setup; search shows results straight away; signed-in account shown in settings. 100.2.0 - QR code sign-in; YouTube-style main menu.</news>
     </extension>
 </addon>
 </addons>
