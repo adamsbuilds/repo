@@ -347,7 +347,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.youtube" name="TubeLite" version="100.4.3" provider-name="adamsbuilds">
+<addon id="plugin.video.youtube" name="TubeLite" version="100.4.4" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -375,7 +375,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>100.4.3 - Signed in, age-restricted videos play: TubeLite's own built-in JavaScript engine unscrambles YouTube's TV app streams (nothing extra to install), encrypted TV episodes included. Browse as your main account or one of your channels (You → Browse as); age-restricted videos always use the main account. Free Movies: YouTube's free-with-ads movies play in full through Widevine. The paid Movies &amp; TV section is gone. Check playback in any video's context menu; errors are saved under You → Show last error. 100.2.1 - No first-run setup; search shows results straight away; signed-in account shown in settings. 100.2.0 - QR code sign-in; YouTube-style main menu.</news>
+        <news>100.4.4 - Free Movies: pages fill to at least 20 playable movies (Settings → Browsing → Free movies per page); backing out of a movie returns to the list instantly; searches don't reopen the keyboard after playback. 100.4.3 - Signed in, age-restricted videos play: TubeLite's own built-in JavaScript engine unscrambles YouTube's TV app streams (nothing extra to install), encrypted TV episodes included. Browse as your main account or one of your channels (You → Browse as); age-restricted videos always use the main account. Free Movies: YouTube's free-with-ads movies play in full through Widevine. The paid Movies &amp; TV section is gone. Check playback in any video's context menu; errors are saved under You → Show last error. 100.2.1 - No first-run setup; search shows results straight away; signed-in account shown in settings. 100.2.0 - QR code sign-in; YouTube-style main menu.</news>
     </extension>
 </addon>
 </addons>
