@@ -339,7 +339,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.youtube" name="TubeLite" version="100.7.6" provider-name="adamsbuilds">
+<addon id="plugin.video.youtube" name="TubeLite" version="100.7.7" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -368,7 +368,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>100.7.6 - Embedded-player route (age-restricted videos signed out) sets itself up from YouTube's embed page, like yt-dlp. 100.7.5 - Paste a YouTube video, playlist or channel link (or a video id) into Search to open it. The standard-version trailer fallback is silent by default (Settings → Account). 100.7.4 - Age-restricted: signed-in TV app first, YouTube's embedded player second. 100.7.3 - When YouTube holds some qualities back, TubeLite plays the streams it does serve instead of giving up. 100.7.2 - Age-restricted videos can also play through YouTube's embedded player (no sign-in needed when the uploader allows embedding): after the signed-in TV app when signed in, on its own when signed out.</news>
+        <news>100.7.7 - Region is now automatic by default (the country YouTube places your connection in; type a code under Settings → Browsing to choose one), so Free Movies finds the movies offered where you are. Free Movies: an empty page is no longer kept for hours, a movie YouTube briefly refused is checked again the next day, and an empty page says why (no free movies offered where you are, or none that play on this device). 100.7.6 - Embedded-player route (age-restricted videos signed out) sets itself up from YouTube's embed page, like yt-dlp. 100.7.5 - Paste a YouTube video, playlist or channel link (or a video id) into Search to open it. The standard-version trailer fallback is silent by default (Settings → Account). 100.7.4 - Age-restricted: signed-in TV app first, YouTube's embedded player second. 100.7.3 - When YouTube holds some qualities back, TubeLite plays the streams it does serve instead of giving up.</news>
     </extension>
 </addon>
 </addons>
