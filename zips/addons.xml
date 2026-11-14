@@ -339,11 +339,12 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.youtube" name="TubeLite" version="100.4.4" provider-name="adamsbuilds">
+<addon id="plugin.video.youtube" name="TubeLite" version="100.7.6" provider-name="adamsbuilds">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>
         <import addon="inputstream.adaptive" version="20.0.0" optional="true"/>
+        <import addon="script.module.inputstreamhelper" version="0.5.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
@@ -367,7 +368,7 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>100.4.4 - Free Movies: pages fill to at least 20 playable movies (Settings → Browsing → Free movies per page); backing out of a movie returns to the list instantly; searches don't reopen the keyboard after playback. 100.4.3 - Signed in, age-restricted videos play: TubeLite's own built-in JavaScript engine unscrambles YouTube's TV app streams (nothing extra to install), encrypted TV episodes included. Browse as your main account or one of your channels (You → Browse as); age-restricted videos always use the main account. Free Movies: YouTube's free-with-ads movies play in full through Widevine. The paid Movies &amp; TV section is gone. Check playback in any video's context menu; errors are saved under You → Show last error. 100.2.1 - No first-run setup; search shows results straight away; signed-in account shown in settings. 100.2.0 - QR code sign-in; YouTube-style main menu.</news>
+        <news>100.7.6 - Embedded-player route (age-restricted videos signed out) sets itself up from YouTube's embed page, like yt-dlp. 100.7.5 - Paste a YouTube video, playlist or channel link (or a video id) into Search to open it. The standard-version trailer fallback is silent by default (Settings → Account). 100.7.4 - Age-restricted: signed-in TV app first, YouTube's embedded player second. 100.7.3 - When YouTube holds some qualities back, TubeLite plays the streams it does serve instead of giving up. 100.7.2 - Age-restricted videos can also play through YouTube's embedded player (no sign-in needed when the uploader allows embedding): after the signed-in TV app when signed in, on its own when signed out.</news>
     </extension>
 </addon>
 </addons>
