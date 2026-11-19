@@ -1,0 +1,6 @@
+{
+  "versionCode": 19,
+  "versionName": "0.1.19",
+  "apkUrl": "https://adamsbuilds.github.io/repo/valflix/ValFlix.apk",
+  "notes": "First public release.\n• Browse movies and shows with artwork from TMDb (built in, nothing to set up)\n• Link Trakt, Simkl, MDBList and debrid services with a code or QR\n• Watched check marks and progress, synced with Trakt\n• Sources only from your linked debrids, with size limits and quiet autoplay\n• Built-in player: audio/subtitle language defaults, DTS/TrueHD audio, in-app trailers\n• ValFlix now updates itself when a new version is published"
+}
