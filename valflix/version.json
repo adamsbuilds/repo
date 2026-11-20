@@ -1,6 +1,6 @@
 {
-  "versionCode": 26,
-  "versionName": "0.1.26",
+  "versionCode": 27,
+  "versionName": "0.1.27",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Movie and show pages now say Add to Watchlist or Remove from Watchlist, so you can take things off your Trakt watchlist\n\u2022 Show and movie pages sit a little lower so the title logo isn't cut off at the top of the TV"
+  "notes": "\u2022 Movie and show pages no longer bounce when they open, and the title logo isn't cut off\n\u2022 Pressing up from a row lands on the tab you're in instead of jumping to Home\n\u2022 Trailers only play inside ValFlix, trying each trailer in turn, and say why if none will load\n\u2022 If ValFlix ever crashes, it shows what went wrong the next time it opens"
 }
