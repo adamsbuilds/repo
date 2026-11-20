@@ -1,6 +1,6 @@
 {
-  "versionCode": 33,
-  "versionName": "0.1.33",
+  "versionCode": 45,
+  "versionName": "0.1.45",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Moving up and down between rows responds straight away"
+  "notes": "\u2022 New scrapers: Nyaa and AnimeTosho (anime), The Pirate Bay, TorrentDownloads\n\u2022 Easynews: sign in under Settings \u203a Scrapers and play straight from Easynews\n\u2022 Usenet: add your Newznab indexers; plays through TorBox\n\u2022 Better anime matching (episode numbers counted from the start, romaji titles)\n\u2022 Up/Down between rows can no longer get stuck, and Library rows no longer bounce"
 }
