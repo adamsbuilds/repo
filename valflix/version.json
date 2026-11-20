@@ -1,6 +1,6 @@
 {
-  "versionCode": 29,
-  "versionName": "0.1.29",
+  "versionCode": 30,
+  "versionName": "0.1.30",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Continue Watching, Next Episode, In Progress and Recently Watched rows from Trakt (and Simkl), plus what you watch in ValFlix\n\u2022 Choose which rows each screen shows and their order: Settings \u203a Appearance \u203a Rows\n\u2022 Resume asks whether to pick up where you left off or start from the beginning\n\u2022 Cleaner subtitles with no black box\n\u2022 Long descriptions scroll so you can read all of them\n\u2022 Fixed two crashes, including trailers on Android 11 devices like the SHIELD\n\u2022 Crash reports can be scrolled"
+  "notes": "\u2022 Rows no longer bounce as you move along them\n\u2022 Going back returns you to the row you were in\n\u2022 Up and Down always move to the next row, even short ones\n\u2022 Descriptions scroll more slowly and always take the same space\n\u2022 Titles show their logo without flashing the name first"
 }
