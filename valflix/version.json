@@ -1,6 +1,6 @@
 {
   "versionCode": 22,
   "versionName": "0.1.22",
-  "apkUrl": "https://adamsbuilds.github.io/repo/valflix/ValFlix.apk",
+  "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
   "notes": "\u2022 Premiumize now links with a code or QR as ValFlix (relink Premiumize after updating)\n\u2022 Trakt always signs in as ValFlix\n\u2022 Library rows can now be reached with a remote or controller"
 }
