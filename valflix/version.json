@@ -1,6 +1,6 @@
 {
-  "versionCode": 27,
-  "versionName": "0.1.27",
+  "versionCode": 29,
+  "versionName": "0.1.29",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Movie and show pages no longer bounce when they open, and the title logo isn't cut off\n\u2022 Pressing up from a row lands on the tab you're in instead of jumping to Home\n\u2022 Trailers only play inside ValFlix, trying each trailer in turn, and say why if none will load\n\u2022 If ValFlix ever crashes, it shows what went wrong the next time it opens"
+  "notes": "\u2022 Continue Watching, Next Episode, In Progress and Recently Watched rows from Trakt (and Simkl), plus what you watch in ValFlix\n\u2022 Choose which rows each screen shows and their order: Settings \u203a Appearance \u203a Rows\n\u2022 Resume asks whether to pick up where you left off or start from the beginning\n\u2022 Cleaner subtitles with no black box\n\u2022 Long descriptions scroll so you can read all of them\n\u2022 Fixed two crashes, including trailers on Android 11 devices like the SHIELD\n\u2022 Crash reports can be scrolled"
 }
