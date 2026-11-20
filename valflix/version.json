@@ -1,6 +1,6 @@
 {
-  "versionCode": 45,
-  "versionName": "0.1.45",
+  "versionCode": 55,
+  "versionName": "0.1.55",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 New scrapers: Nyaa and AnimeTosho (anime), The Pirate Bay, TorrentDownloads\n\u2022 Easynews: sign in under Settings \u203a Scrapers and play straight from Easynews\n\u2022 Usenet: add your Newznab indexers; plays through TorBox\n\u2022 Better anime matching (episode numbers counted from the start, romaji titles)\n\u2022 Up/Down between rows can no longer get stuck, and Library rows no longer bounce"
+  "notes": "\u2022 New player controls: seekbar along the bottom, Left/Right to move through the video, buttons for Play/Pause, Episodes, Audio & Subtitles and Next Episode\n\u2022 Skip Intro / Skip Recap button (from the intro databases)\n\u2022 Next Episode countdown when the credits start, with the next episode's sources found ahead of time\n\u2022 Hold OK on any card: Choose source, Mark watched/unwatched, Clear progress, Watchlist\n\u2022 Source filters (by debrid / scraper) with found and shown counts; anime keeps Nyaa/AnimeTosho copies\n\u2022 Back from a section returns to its tab; hold Back to exit\n\u2022 Recent searches under the search bar (clear them in Settings); press OK to type\n\u2022 Rows stay lined up when moving up and down"
 }
