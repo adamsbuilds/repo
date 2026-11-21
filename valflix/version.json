@@ -1,6 +1,6 @@
 {
-  "versionCode": 55,
-  "versionName": "0.1.55",
+  "versionCode": 61,
+  "versionName": "0.1.61",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 New player controls: seekbar along the bottom, Left/Right to move through the video, buttons for Play/Pause, Episodes, Audio & Subtitles and Next Episode\n\u2022 Skip Intro / Skip Recap button (from the intro databases)\n\u2022 Next Episode countdown when the credits start, with the next episode's sources found ahead of time\n\u2022 Hold OK on any card: Choose source, Mark watched/unwatched, Clear progress, Watchlist\n\u2022 Source filters (by debrid / scraper) with found and shown counts; anime keeps Nyaa/AnimeTosho copies\n\u2022 Back from a section returns to its tab; hold Back to exit\n\u2022 Recent searches under the search bar (clear them in Settings); press OK to type\n\u2022 Rows stay lined up when moving up and down"
+  "notes": "\u2022 Cast pages: press an actor to see their photo, bio, movies and shows\n\u2022 Speed & Sync in Audio & Subtitles: playback speed and audio sync (saved for every video)\n\u2022 Match frame rate (testing) and Remember source in Settings \u203a Playback\n\u2022 Android TV home: your in-progress titles and next episodes appear in the TV's Watch Next row\n\u2022 Voice search: mic button in Search, remote search key, and \"search for \u2026 on ValFlix\"\n\u2022 Send log in Settings \u203a About (and on the crash screen): link + QR code to share\n\u2022 Logins are now stored encrypted\n\u2022 Fixed: running out of memory on some TVs; hold-OK menu no longer presses its first button; rows refresh after Mark watched / Clear progress"
 }
