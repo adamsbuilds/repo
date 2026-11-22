@@ -1,7 +1,7 @@
 {
-  "versionCode": 79,
-  "versionName": "0.1.70",
+  "versionCode": 86,
+  "versionName": "0.1.71",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Show page: Up from any episode goes to the season showing; Up from the seasons lands on Play/Resume\n\u2022 MKVs with compressed subtitles (some anime releases) now play, subtitles included\n\u2022 Next episode only kicks in near the real end of an episode\n\u2022 Stopping at the credits counts the episode as watched, and Next Episode rows update right away\n\u2022 Video this device can't play (AV1 on SHIELD) is skipped as a failed source; AV1 sources sort lower and are marked\n\u2022 Coming back from a title in a list or search results returns focus to that title\n\u2022 Settings \u203a Sources \u203a Service priority: order your debrids, Easynews and Usenet\n\u2022 Add to list\u2026 now has New list\u2026"
+  "notes": "\u2022 Rows: Down from a card further along a row no longer snaps back to the row's first card\n\u2022 Show page: Up from any episode goes to the season showing\n\u2022 Show page: moving up or down into the episodes lands on the episode you were last on (or the one you're up to)\n\u2022 Show page: Cast & Crew moves fully into view, names included\n\u2022 Show page: episodes, seasons, cast and More Like This scroll sideways like Home rows"
 }
