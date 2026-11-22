@@ -1,7 +1,7 @@
 {
-  "versionCode": 73,
-  "versionName": "0.1.68",
+  "versionCode": 95,
+  "versionName": "0.1.75",
   "channel": "official",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Receive Beta Versions (Settings \u203a About): get new versions early for testing\n\u2022 Send log asks what went wrong, then sends it straight to the developer (now includes the previous session too)\n\u2022 Pressing down from the top menu into Settings starts on the categories"
+  "notes": "\u2022 Smoother scrolling and steadier navigation throughout (rows, show pages, lists)\n\u2022 Show pages open on the season and episode you're up to; hold OK on a season to mark it watched/unwatched\n\u2022 Continue Watching, Next Episode and Movies in Progress go straight to sources\n\u2022 Trakt: like/unlike lists, Add to list\u2026 (with New list\u2026), Remove from list\n\u2022 Next Episode rows update as soon as you finish an episode\n\u2022 Anime releases with compressed subtitles now play; AV1 files your device can't play are skipped\n\u2022 TorBox and Offcloud no longer leave played items in your account\n\u2022 New settings (off/unchanged by default): Service priority, Trailer quality, Second audio language, Subtitles for foreign audio, Anime audio"
 }
