@@ -1,7 +1,7 @@
 {
-  "versionCode": 93,
-  "versionName": "0.1.74",
+  "versionCode": 98,
+  "versionName": "0.1.76",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Show page: no more bounce moving between Play, the seasons and the episodes; that part of the page stays exactly as it opens\n\u2022 Show page: coming back up from Cast & Crew glides smoothly back to the top instead of jumping"
+  "notes": "\u2022 Player: new Sources button: switch to another source mid-playback and carry on from the same spot\n\u2022 With Autoplay on, Back from the player goes straight back to the title (not the sources list)\n\u2022 Skip Intro / Skip Recap now counts down and fades away if you don't use it; bring up the controls to get it back"
 }
