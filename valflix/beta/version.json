@@ -1,7 +1,7 @@
 {
-  "versionCode": 98,
-  "versionName": "0.1.76",
+  "versionCode": 101,
+  "versionName": "0.1.77",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Player: new Sources button: switch to another source mid-playback and carry on from the same spot\n\u2022 With Autoplay on, Back from the player goes straight back to the title (not the sources list)\n\u2022 Skip Intro / Skip Recap now counts down and fades away if you don't use it; bring up the controls to get it back"
+  "notes": "\u2022 Sources button: if the source you pick won't play, you're put back on the one you were watching, at the same spot\n\u2022 If the connection drops mid-play, ValFlix reconnects (or gets a fresh link) and carries on instead of closing\n\u2022 Stopping at the credits now counts as watched on Trakt/Simkl and moves the TV's Continue Watching row on\n\u2022 Phones: pauses for calls, and when headphones or Bluetooth disconnect\n\u2022 New setting: Sources & Playback \u203a Buffer size (Standard, Large, Extra large) for big 4K files on Wi-Fi"
 }
