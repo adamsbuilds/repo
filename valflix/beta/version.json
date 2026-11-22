@@ -1,7 +1,7 @@
 {
-  "versionCode": 91,
-  "versionName": "0.1.73",
+  "versionCode": 93,
+  "versionName": "0.1.74",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Show page: moving down from the episodes brings Cast & Crew fully on screen\n\u2022 Show page: Up from Cast & Crew goes to the episodes, then the season, then Play (no more jumping straight to Play)\n\u2022 Cast pages: the first row no longer grabs focus back while you scroll"
+  "notes": "\u2022 Show page: no more bounce moving between Play, the seasons and the episodes; that part of the page stays exactly as it opens\n\u2022 Show page: coming back up from Cast & Crew glides smoothly back to the top instead of jumping"
 }
