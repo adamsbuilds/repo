@@ -1,0 +1,7 @@
+{
+  "versionCode": 69,
+  "versionName": "0.1.66",
+  "channel": "beta",
+  "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
+  "notes": "\u2022 Receive Beta Versions (Settings \u203a About): get new versions early for testing\n\u2022 Send log asks what went wrong, then sends it straight to the developer"
+}
