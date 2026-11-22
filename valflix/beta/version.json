@@ -1,7 +1,7 @@
 {
-  "versionCode": 71,
-  "versionName": "0.1.67",
+  "versionCode": 77,
+  "versionName": "0.1.69",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Send log now includes the previous session too, so a log sent after a restart or crash still shows what happened"
+  "notes": "\u2022 Player: title sits higher, seek bar and buttons sit lower\n\u2022 Show pages open on the season and episode you're up to\n\u2022 Hold OK on a season to mark it watched or unwatched\n\u2022 Season row only changes with Left/Right; Up from the episodes lands on the season showing\n\u2022 Continue Watching, Next Episode and Movies in Progress go straight to sources (hold OK for Go to show/movie)\n\u2022 Recently Watched Shows shows each show once\n\u2022 Trakt: hold OK on a list to like or unlike it, Add to list\u2026 on titles, Remove from list inside your own lists\n\u2022 Smoother up/down scrolling everywhere\n\u2022 New settings (all off or unchanged by default): Trailer quality, Second audio language, Subtitles for foreign audio, Anime audio (dub/sub)"
 }
