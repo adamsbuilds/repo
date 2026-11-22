@@ -1,7 +1,7 @@
 {
-  "versionCode": 69,
-  "versionName": "0.1.66",
+  "versionCode": 71,
+  "versionName": "0.1.67",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Receive Beta Versions (Settings \u203a About): get new versions early for testing\n\u2022 Send log asks what went wrong, then sends it straight to the developer"
+  "notes": "\u2022 Send log now includes the previous session too, so a log sent after a restart or crash still shows what happened"
 }
