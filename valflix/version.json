@@ -1,6 +1,6 @@
 {
-  "versionCode": 61,
-  "versionName": "0.1.61",
+  "versionCode": 65,
+  "versionName": "0.1.65",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Cast pages: press an actor to see their photo, bio, movies and shows\n\u2022 Speed & Sync in Audio & Subtitles: playback speed and audio sync (saved for every video)\n\u2022 Match frame rate (testing) and Remember source in Settings \u203a Playback\n\u2022 Android TV home: your in-progress titles and next episodes appear in the TV's Watch Next row\n\u2022 Voice search: mic button in Search, remote search key, and \"search for \u2026 on ValFlix\"\n\u2022 Send log in Settings \u203a About (and on the crash screen): link + QR code to share\n\u2022 Logins are now stored encrypted\n\u2022 Fixed: running out of memory on some TVs; hold-OK menu no longer presses its first button; rows refresh after Mark watched / Clear progress"
+  "notes": "\u2022 Trakt rows (Home, off by default): My Trakt lists, Liked Trakt lists, each of your own lists, plus Movie and TV Show Collection\n\u2022 Search finds public Trakt lists (shown under the results); lists open as a grid with every title, however long\n\u2022 Search results and list grids follow your card style and size\n\u2022 Card sizes simplified: Small or Large for posters and landscape\n\u2022 Voice search listens inside ValFlix (asks for the microphone once)\n\u2022 Search bar and mic centred; scraper servers picked from a list (with Custom address\u2026)\n\u2022 ValFlix titles now show up in the TV's own search\n\u2022 New installs start with Torrentio, Comet, Nyaa and AnimeTosho on, English audio and forced subtitles (existing settings unchanged)"
 }
