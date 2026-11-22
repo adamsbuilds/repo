@@ -1,6 +1,7 @@
 {
-  "versionCode": 65,
-  "versionName": "0.1.65",
+  "versionCode": 73,
+  "versionName": "0.1.68",
+  "channel": "official",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Trakt rows (Home, off by default): My Trakt lists, Liked Trakt lists, each of your own lists, plus Movie and TV Show Collection\n\u2022 Search finds public Trakt lists (shown under the results); lists open as a grid with every title, however long\n\u2022 Search results and list grids follow your card style and size\n\u2022 Card sizes simplified: Small or Large for posters and landscape\n\u2022 Voice search listens inside ValFlix (asks for the microphone once)\n\u2022 Search bar and mic centred; scraper servers picked from a list (with Custom address\u2026)\n\u2022 ValFlix titles now show up in the TV's own search\n\u2022 New installs start with Torrentio, Comet, Nyaa and AnimeTosho on, English audio and forced subtitles (existing settings unchanged)"
+  "notes": "\u2022 Receive Beta Versions (Settings \u203a About): get new versions early for testing\n\u2022 Send log asks what went wrong, then sends it straight to the developer (now includes the previous session too)\n\u2022 Pressing down from the top menu into Settings starts on the categories"
 }
