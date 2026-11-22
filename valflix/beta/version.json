@@ -1,7 +1,7 @@
 {
-  "versionCode": 88,
-  "versionName": "0.1.72",
+  "versionCode": 91,
+  "versionName": "0.1.73",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Show page: moving up into the seasons or episodes brings back the full first screen (title, buttons, seasons, episodes)\n\u2022 Show page: Cast & Crew and More Like This each scroll to a set place, so presses don't get lost mid-scroll\n\u2022 TorBox (torrents and Usenet): played items are removed from your TorBox list again, like Real-Debrid and AllDebrid. Anything you added yourself stays\n\u2022 Offcloud: cached titles play without going into your cloud; anything added just to play is removed when the player closes"
+  "notes": "\u2022 Show page: moving down from the episodes brings Cast & Crew fully on screen\n\u2022 Show page: Up from Cast & Crew goes to the episodes, then the season, then Play (no more jumping straight to Play)\n\u2022 Cast pages: the first row no longer grabs focus back while you scroll"
 }
