@@ -1,7 +1,7 @@
 {
-  "versionCode": 117,
-  "versionName": "0.1.80",
+  "versionCode": 126,
+  "versionName": "0.1.81",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 10-bit AV1 (most WEB AV1 releases) now plays up to 1080p, through the backup player\n\u2022 4K AV1 on devices without hardware AV1 is skipped straight away (it can't play smoothly in software)\n\u2022 The backup player now uses the TV's hardware decoders when it can\n\u2022 Full Blu-ray disc releases (ISO, BDMV, COMPLETE BLURAY) are marked FULL DISC \u00b7 NOT SUPPORTED HERE and listed last"
+  "notes": "\u2022 After a season finale, Play moves on to the next season's first episode once it has aired\n\u2022 When there's nothing new to watch, the show page offers Rewatch S1 E1 and says when the next episode airs, that you're caught up, or that the series is finished\n\u2022 Next Up, the long-press menu, quick-play and the player's next episode all use the same check, so they never offer an episode that hasn't aired or doesn't exist\n\u2022 Quick-play on a show you're caught up on opens the show page instead of restarting it"
 }
