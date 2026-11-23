@@ -1,7 +1,7 @@
 {
-  "versionCode": 101,
-  "versionName": "0.1.77",
+  "versionCode": 109,
+  "versionName": "0.1.78",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Sources button: if the source you pick won't play, you're put back on the one you were watching, at the same spot\n\u2022 If the connection drops mid-play, ValFlix reconnects (or gets a fresh link) and carries on instead of closing\n\u2022 Stopping at the credits now counts as watched on Trakt/Simkl and moves the TV's Continue Watching row on\n\u2022 Phones: pauses for calls, and when headphones or Bluetooth disconnect\n\u2022 New setting: Sources & Playback \u203a Buffer size (Standard, Large, Extra large) for big 4K files on Wi-Fi"
+  "notes": "\u2022 Backup player (mpv): video your TV can't decode, like 10-bit H.264 anime or VC-1, now plays instead of being skipped\n\u2022 FLAC audio always plays through ValFlix's own decoder (fixes playback stopping a few minutes in on some TVs)\n\u2022 If the sound fails mid-play, ValFlix switches audio decoder and carries on from the same spot\n\u2022 AV1 up to 1080p now plays on devices without hardware AV1 (like the SHIELD), with a new, faster decoder\n\u2022 4K AV1 and 10-bit H.264 releases your device can't play are ranked last and marked\n\u2022 New settings in Sources & Playback: Player engine and Audio decoders\n\u2022 Updated playback engine (Media3 1.9)"
 }
