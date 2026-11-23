@@ -1,7 +1,7 @@
 {
-  "versionCode": 113,
-  "versionName": "0.1.79",
+  "versionCode": 117,
+  "versionName": "0.1.80",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Fixed: 4K HEVC on the SHIELD (and similar) was wrongly sent to the backup player; it plays on the normal player again\n\u2022 Fixed: the backup player (mpv) couldn't open https links\n\u2022 Fixed: freezes/crashes while the backup player started or loaded\n\u2022 The backup player now only takes over when the TV truly can't decode the video (10-bit H.264, VC-1, ...) or its decoder fails"
+  "notes": "\u2022 10-bit AV1 (most WEB AV1 releases) now plays up to 1080p, through the backup player\n\u2022 4K AV1 on devices without hardware AV1 is skipped straight away (it can't play smoothly in software)\n\u2022 The backup player now uses the TV's hardware decoders when it can\n\u2022 Full Blu-ray disc releases (ISO, BDMV, COMPLETE BLURAY) are marked FULL DISC \u00b7 NOT SUPPORTED HERE and listed last"
 }
