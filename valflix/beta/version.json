@@ -1,7 +1,7 @@
 {
-  "versionCode": 110,
-  "versionName": "0.1.78",
+  "versionCode": 113,
+  "versionName": "0.1.79",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Backup player (mpv): video your TV can't decode, like 10-bit H.264 anime or VC-1, now plays instead of being skipped\n\u2022 FLAC audio always plays through ValFlix's own decoder (fixes playback stopping a few minutes in on some TVs)\n\u2022 If the sound fails mid-play, ValFlix switches audio decoder and carries on from the same spot\n\u2022 AV1 up to 1080p now plays on devices without hardware AV1 (like the SHIELD), with a new, faster decoder\n\u2022 4K AV1 and 10-bit H.264 releases your device can't play are ranked last and marked\n\u2022 New settings in Sources & Playback: Player engine and Audio decoders\n\u2022 Updated playback engine (Media3 1.9)"
+  "notes": "\u2022 Fixed: 4K HEVC on the SHIELD (and similar) was wrongly sent to the backup player; it plays on the normal player again\n\u2022 Fixed: the backup player (mpv) couldn't open https links\n\u2022 Fixed: freezes/crashes while the backup player started or loaded\n\u2022 The backup player now only takes over when the TV truly can't decode the video (10-bit H.264, VC-1, ...) or its decoder fails"
 }
