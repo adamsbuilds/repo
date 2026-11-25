@@ -1,7 +1,7 @@
 {
-  "versionCode": 95,
-  "versionName": "0.1.75",
+  "versionCode": 132,
+  "versionName": "0.1.83",
   "channel": "official",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/ValFlix.apk",
-  "notes": "\u2022 Smoother scrolling and steadier navigation throughout (rows, show pages, lists)\n\u2022 Show pages open on the season and episode you're up to; hold OK on a season to mark it watched/unwatched\n\u2022 Continue Watching, Next Episode and Movies in Progress go straight to sources\n\u2022 Trakt: like/unlike lists, Add to list\u2026 (with New list\u2026), Remove from list\n\u2022 Next Episode rows update as soon as you finish an episode\n\u2022 Anime releases with compressed subtitles now play; AV1 files your device can't play are skipped\n\u2022 TorBox and Offcloud no longer leave played items in your account\n\u2022 New settings (off/unchanged by default): Service priority, Trailer quality, Second audio language, Subtitles for foreign audio, Anime audio"
+  "notes": "\u2022 New backup player: video your TV can't decode (10-bit H.264 anime, VC-1, 10-bit AV1) now plays instead of being skipped\n\u2022 AV1 up to 1080p plays on devices without hardware AV1 (like the SHIELD); FLAC audio fixed on TVs where it stopped mid-play\n\u2022 Playback recovers: dropped connections reconnect, failed audio switches decoder, and a bad source puts you back where you were\n\u2022 Player: Sources button to switch source mid-play; Skip Intro/Recap counts down and fades\n\u2022 After a season finale Play moves on to the next season; when nothing new has aired it offers Rewatch S1 E1 and says when the next episode airs\n\u2022 Stopping at the credits counts as watched on Trakt/Simkl\n\u2022 Phones and tablets: just rows on Home, pauses for calls/headphones, and press back again to exit\n\u2022 New settings in Sources & Playback: Player engine, Audio decoders, Buffer size"
 }
