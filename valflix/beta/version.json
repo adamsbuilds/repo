@@ -1,7 +1,7 @@
 {
-  "versionCode": 142,
-  "versionName": "0.1.85",
+  "versionCode": 145,
+  "versionName": "0.1.86",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 What you watch now goes to your watch provider only (the \"Keep other accounts in sync\" option is gone). To keep several accounts in step, turn on syncing between them on the services' own websites\n\u2022 Simkl: anime episodes are mapped to Simkl's own numbering, so they land on the right episode"
+  "notes": "\u2022 Trakt: your whole watch history now loads, not just the first 100 movies, so older titles get their watched marks again (also watchlist, resume points and collection)\n\u2022 Dolby Atmos (DD+ Atmos) tracks are sent to the TV or soundbar as plain Dolby Digital Plus, fixing silent audio on some TVs\n\u2022 Logs now list each title's audio tracks and how the sound is being played, to help with audio problems"
 }
