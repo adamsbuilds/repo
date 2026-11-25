@@ -1,7 +1,7 @@
 {
-  "versionCode": 130,
-  "versionName": "0.1.82",
+  "versionCode": 140,
+  "versionName": "0.1.84",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Phones and tablets: Home, Movies and TV Shows are now just rows (the info panel only follows a TV remote, so it's gone on touch screens)\n\u2022 Phones and tablets: Back goes to Home, then press back again to exit\n\u2022 TV is unchanged"
+  "notes": "\u2022 New: Watch provider (Settings \u203a Accounts): ValFlix on this device, Trakt, Simkl, MDBList or PunchPlay drives check marks, resume points, Next Episode and your rows\n\u2022 Link several accounts: the only one is picked automatically, a second asks first; Keep other accounts in sync sends what you watch to all of them\n\u2022 Simkl rebuilt with its new sign-in; MDBList now signs in with a code/QR (API key still works) and adds history, progress, watchlist, lists and IMDb/Rotten Tomatoes/Metacritic/Letterboxd ratings\n\u2022 New: PunchPlay (history, progress, Continue Watching, watchlist, lists, collection)\n\u2022 Add to list shows every account's watchlist and lists; Search finds your own lists and public Trakt/MDBList lists\n\u2022 Each account's own rows can be added under Appearance \u203a Rows\n\u2022 TV: typing a key now opens the keyboard on OK, with the remote on the keyboard"
 }
