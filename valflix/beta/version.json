@@ -1,7 +1,7 @@
 {
-  "versionCode": 140,
-  "versionName": "0.1.84",
+  "versionCode": 142,
+  "versionName": "0.1.85",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 New: Watch provider (Settings \u203a Accounts): ValFlix on this device, Trakt, Simkl, MDBList or PunchPlay drives check marks, resume points, Next Episode and your rows\n\u2022 Link several accounts: the only one is picked automatically, a second asks first; Keep other accounts in sync sends what you watch to all of them\n\u2022 Simkl rebuilt with its new sign-in; MDBList now signs in with a code/QR (API key still works) and adds history, progress, watchlist, lists and IMDb/Rotten Tomatoes/Metacritic/Letterboxd ratings\n\u2022 New: PunchPlay (history, progress, Continue Watching, watchlist, lists, collection)\n\u2022 Add to list shows every account's watchlist and lists; Search finds your own lists and public Trakt/MDBList lists\n\u2022 Each account's own rows can be added under Appearance \u203a Rows\n\u2022 TV: typing a key now opens the keyboard on OK, with the remote on the keyboard"
+  "notes": "\u2022 What you watch now goes to your watch provider only (the \"Keep other accounts in sync\" option is gone). To keep several accounts in step, turn on syncing between them on the services' own websites\n\u2022 Simkl: anime episodes are mapped to Simkl's own numbering, so they land on the right episode"
 }
