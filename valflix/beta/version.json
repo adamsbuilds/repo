@@ -1,7 +1,7 @@
 {
-  "versionCode": 145,
-  "versionName": "0.1.86",
+  "versionCode": 149,
+  "versionName": "0.1.87",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Trakt: your whole watch history now loads, not just the first 100 movies, so older titles get their watched marks again (also watchlist, resume points and collection)\n\u2022 Dolby Atmos (DD+ Atmos) tracks are sent to the TV or soundbar as plain Dolby Digital Plus, fixing silent audio on some TVs\n\u2022 Logs now list each title's audio tracks and how the sound is being played, to help with audio problems"
+  "notes": "\u2022 Subtitle search: Audio & Subtitles \u203a Search subtitles\u2026 finds subtitles on OpenSubtitles in your languages, with ones made for your exact file first. Pick one and it comes on without restarting\n\u2022 New setting Auto-fetch subtitles (off by default): downloads subtitles when the file has none in the language you want\n\u2022 Optional OpenSubtitles sign-in in Settings for more downloads a day\n\u2022 Audio: plays the file's default or first track instead of the highest bitrate one, still in your audio language (fixes silent audio on some soundbars)\n\u2022 Backing out in the first 1% no longer sends anything to your watch service"
 }
