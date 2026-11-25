@@ -1,7 +1,7 @@
 {
-  "versionCode": 126,
-  "versionName": "0.1.81",
+  "versionCode": 130,
+  "versionName": "0.1.82",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 After a season finale, Play moves on to the next season's first episode once it has aired\n\u2022 When there's nothing new to watch, the show page offers Rewatch S1 E1 and says when the next episode airs, that you're caught up, or that the series is finished\n\u2022 Next Up, the long-press menu, quick-play and the player's next episode all use the same check, so they never offer an episode that hasn't aired or doesn't exist\n\u2022 Quick-play on a show you're caught up on opens the show page instead of restarting it"
+  "notes": "\u2022 Phones and tablets: Home, Movies and TV Shows are now just rows (the info panel only follows a TV remote, so it's gone on touch screens)\n\u2022 Phones and tablets: Back goes to Home, then press back again to exit\n\u2022 TV is unchanged"
 }
