@@ -1,7 +1,7 @@
 {
-  "versionCode": 149,
-  "versionName": "0.1.87",
+  "versionCode": 151,
+  "versionName": "0.1.88",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Subtitle search: Audio & Subtitles \u203a Search subtitles\u2026 finds subtitles on OpenSubtitles in your languages, with ones made for your exact file first. Pick one and it comes on without restarting\n\u2022 New setting Auto-fetch subtitles (off by default): downloads subtitles when the file has none in the language you want\n\u2022 Optional OpenSubtitles sign-in in Settings for more downloads a day\n\u2022 Audio: plays the file's default or first track instead of the highest bitrate one, still in your audio language (fixes silent audio on some soundbars)\n\u2022 Backing out in the first 1% no longer sends anything to your watch service"
+  "notes": "\u2022 Rewatching: something you've watched before now offers Resume when you stopped partway (it showed as watched and started over). Cards show the progress bar until you finish it again\n\u2022 Subtitle search: subtitles timed for your video's frame rate come first (others are marked \u201cmay drift\u201d), and trusted uploaders win near-ties"
 }
