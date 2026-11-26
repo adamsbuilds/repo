@@ -1,7 +1,7 @@
 {
-  "versionCode": 155,
-  "versionName": "0.1.89",
+  "versionCode": 159,
+  "versionName": "0.1.91",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 New Info button in the player (also the remote's Info key): everything about what's playing \u2014 file, video codec/profile/level, resolution, frame rate, HDR type and colour, bit depth, decoder (hardware or software), dropped frames, your display's mode and HDR support, audio codec/channels/bitrate, Atmos, decoder and whether it's passed through, subtitles, buffer and download speed\n\u2022 Trailers: YouTube trailers now download a piece at a time, so they no longer stall partway; a broken or refused download picks up again from the same spot\n\u2022 Logs now note download problems and playback stalls"
+  "notes": "\u2022 Phones and tablets: the player's Info button moved to the top right, opposite the back arrow (it was pushed off screen on episodes)\n\u2022 Phones and tablets: when the player's buttons don't fit across the screen (portrait, small phones) they show as icons only\n\u2022 TV is unchanged"
 }
