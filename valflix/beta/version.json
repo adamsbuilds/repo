@@ -1,7 +1,7 @@
 {
-  "versionCode": 151,
-  "versionName": "0.1.88",
+  "versionCode": 155,
+  "versionName": "0.1.89",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Rewatching: something you've watched before now offers Resume when you stopped partway (it showed as watched and started over). Cards show the progress bar until you finish it again\n\u2022 Subtitle search: subtitles timed for your video's frame rate come first (others are marked \u201cmay drift\u201d), and trusted uploaders win near-ties"
+  "notes": "\u2022 New Info button in the player (also the remote's Info key): everything about what's playing \u2014 file, video codec/profile/level, resolution, frame rate, HDR type and colour, bit depth, decoder (hardware or software), dropped frames, your display's mode and HDR support, audio codec/channels/bitrate, Atmos, decoder and whether it's passed through, subtitles, buffer and download speed\n\u2022 Trailers: YouTube trailers now download a piece at a time, so they no longer stall partway; a broken or refused download picks up again from the same spot\n\u2022 Logs now note download problems and playback stalls"
 }
