@@ -1,7 +1,7 @@
 {
-  "versionCode": 161,
-  "versionName": "0.1.92",
+  "versionCode": 164,
+  "versionName": "0.1.93",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 New Sound choice in the player (Audio & Subtitles \u203a Sound, Speed & Sync): Original, Dialogue boost (clearer voices on TV speakers) or Night mode (loud scenes down, quiet talking up). Remembered on each device\n\u2022 Dialogue boost and Night mode play in stereo and decode the audio in ValFlix, so a soundbar gets plain sound instead of Dolby while they're on; Original works as before\n\u2022 The player's Info panel shows which Sound choice is on"
+  "notes": "\u2022 Stremio add-ons with direct links (Plexio for your Plex server, and others): sources show the add-on's own name, the real file size, which kind of stream it is (Direct Play, Transcode 720p) with the right quality, and subtitle files the add-on provides\n\u2022 Dolby Vision that a TV can't do (profile 7 remuxes on many TVs, Sony's included) now plays its HDR10 picture with the right colours instead of wrong ones. TVs that do Dolby Vision keep it. New setting: Dolby Vision \u203a Play as HDR10\n\u2022 Trakt: when Trakt stops accepting this device's sign-in, ValFlix now says so (Settings \u203a Accounts and a message on Home) instead of showing empty rows. Select Trakt there to link it again\n\u2022 Player: OK now brings up the controls; OK again (on the seek bar) pauses\n\u2022 Player: new Picture choice under Audio & Subtitles \u203a Sound, Picture & Speed: Fit, Fill, Stretch or Zoom, remembered on each device\n\u2022 Info panel shows the TV's real output resolution (built-in TVs draw menus at 1080p but play video at 4K)"
 }
