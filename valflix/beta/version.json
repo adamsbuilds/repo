@@ -1,7 +1,7 @@
 {
-  "versionCode": 169,
-  "versionName": "0.1.95",
+  "versionCode": 172,
+  "versionName": "0.1.96",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Leaving the player while a source is stuck or still starting now keeps your spot, so you can resume where you were\n\u2022 When a video server doesn't answer at all, ValFlix stops trying after about 30 seconds instead of spinning for minutes\n\u2022 A fresh link after a dropped connection comes from another linked debrid service the file is cached on, when there is one\n\u2022 If a source you pick won't play and the one before it had stopped too, the Sources list opens again instead of going back to the dead one\n\u2022 A picked source that hasn't started after 45 seconds is given up on"
+  "notes": "\u2022 Updates on Android 11 and older (most TVs) use Android's installer screen again, which ends with its own Open button\n\u2022 Android 12 and newer keep the quick install with no prompt, and ValFlix reopens by itself\n\u2022 The update window no longer shows Update and Later while downloading, and closes once the install starts, so it can't be pressed twice"
 }
