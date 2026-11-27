@@ -1,7 +1,7 @@
 {
-  "versionCode": 172,
-  "versionName": "0.1.96",
+  "versionCode": 174,
+  "versionName": "0.1.97",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Updates on Android 11 and older (most TVs) use Android's installer screen again, which ends with its own Open button\n\u2022 Android 12 and newer keep the quick install with no prompt, and ValFlix reopens by itself\n\u2022 The update window no longer shows Update and Later while downloading, and closes once the install starts, so it can't be pressed twice"
+  "notes": "\u2022 Continue Watching and Next Episode cards show the episode's own picture instead of the show's artwork\n\u2022 Trakt stays linked more reliably: each sign-in renewal is sent only once and saved straight away\n\u2022 Updating ValFlix waits for a Trakt renewal in progress to finish first, so an update can't lose your Trakt link\n\u2022 If Trakt ends a sign-in, ValFlix shows \"Sign-in expired\" once and stops asking Trakt until you link it again"
 }
