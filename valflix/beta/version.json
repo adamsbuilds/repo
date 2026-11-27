@@ -1,7 +1,7 @@
 {
-  "versionCode": 167,
-  "versionName": "0.1.94",
+  "versionCode": 169,
+  "versionName": "0.1.95",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Player: separate Audio, Subtitles and Video buttons (icons; on TV the name shows when you land on one). Each opens its own panel with room for long track names, and tabs at the top to hop between them (Left/Right on the remote)\n\u2022 Audio panel: tracks, Sound (Original, Dialogue boost, Night mode) and Audio sync. Video panel: Picture and Speed. Info sits before Next Episode\n\u2022 Player menus are see-through, so the video stays visible behind them\n\u2022 Phones and tablets: double-tap the left or right side to skip 10 seconds; keep tapping to skip further\n\u2022 Updates now install through Android itself: one tap to confirm on most TVs, and on Android 12 and newer no prompt at all after this update. ValFlix shows what's new after updating\n\u2022 TV: the update notes can be scrolled with the remote (press Up from the buttons)"
+  "notes": "\u2022 Leaving the player while a source is stuck or still starting now keeps your spot, so you can resume where you were\n\u2022 When a video server doesn't answer at all, ValFlix stops trying after about 30 seconds instead of spinning for minutes\n\u2022 A fresh link after a dropped connection comes from another linked debrid service the file is cached on, when there is one\n\u2022 If a source you pick won't play and the one before it had stopped too, the Sources list opens again instead of going back to the dead one\n\u2022 A picked source that hasn't started after 45 seconds is given up on"
 }
