@@ -1,7 +1,7 @@
 {
-  "versionCode": 159,
-  "versionName": "0.1.91",
+  "versionCode": 161,
+  "versionName": "0.1.92",
   "channel": "beta",
   "apkUrl": "https://raw.githubusercontent.com/adamsbuilds/repo/master/valflix/beta/ValFlix.apk",
-  "notes": "\u2022 Phones and tablets: the player's Info button moved to the top right, opposite the back arrow (it was pushed off screen on episodes)\n\u2022 Phones and tablets: when the player's buttons don't fit across the screen (portrait, small phones) they show as icons only\n\u2022 TV is unchanged"
+  "notes": "\u2022 New Sound choice in the player (Audio & Subtitles \u203a Sound, Speed & Sync): Original, Dialogue boost (clearer voices on TV speakers) or Night mode (loud scenes down, quiet talking up). Remembered on each device\n\u2022 Dialogue boost and Night mode play in stereo and decode the audio in ValFlix, so a soundbar gets plain sound instead of Dolby while they're on; Original works as before\n\u2022 The player's Info panel shows which Sound choice is on"
 }
